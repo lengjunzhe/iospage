@@ -1,0 +1,1625 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale = 1.0, user-scalable = no">
+<title>sonidigg English page</title>
+<link type="text/css" rel="stylesheet" href="/static/5305css/css.css">
+<link type="text/css" rel="stylesheet"
+	href="/static/5305css/prettyPhoto.css">
+<link type="text/css" rel="stylesheet"
+	href="/static/5305css/normalize.css" media="screen">
+<link type="text/css" rel="stylesheet" href="/static/5305css/grid.css"
+	media="screen">
+<link type="text/css" rel="stylesheet" href="/static/5305css/style.css"
+	media="screen">
+<link type="text/css" rel="stylesheet"
+	href="/static/5305css/flexslider.css" media="screen">
+
+<link
+	href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800"
+	rel="stylesheet" type="text/css">
+
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<style type="text/css"></style>
+<style type="text/css"></style>
+<style type="text/css"></style>
+<script type="text/javascript" src="/static/5305js/jquery.easing.1.3.js"></script>
+<script type="text/javascript"
+	src="/static/5305js/jquery.prettyPhoto.js"></script>
+<script src="/static/5305js/jquery.sticky.js"></script>
+<script type="text/javascript" src="/static/5305js/js.js"></script>
+<script type="text/javascript"
+	src="/static/5305js/jquery.stellar.min.js"></script>
+<script type="text/javascript" src="/static/5305js/waypoints.min.js"></script>
+<!--[if lt IE 9]>
+		<script src="/static/5305js/html5shiv.js"></script>
+		<script src="/static/5305js/respond.src.js"></script>
+	<![endif]-->
+
+<script type="text/javascript">
+	$(document)
+			.ready(
+					function() {
+						$("#ajax-contact-form")
+								.submit(
+										function() {
+											var str = $(this).serialize();
+											$
+													.ajax({
+														type : "POST",
+														url : "contact_form/contact_process.php",
+														data : str,
+														success : function(msg) {
+															// Message Sent - Show the 'Thank You' message and hide the form
+															if (msg == 'OK') {
+																result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
+																$("#fields")
+																		.hide();
+															} else {
+																result = msg;
+															}
+															$('#note').html(
+																	result);
+														}
+													});
+											return false;
+										});
+
+					});
+</script>
+
+<script type="text/javascript"
+	src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script>
+</head>
+
+<body>
+
+
+	<div class="slide" id="slide1" data-slide="1"
+		data-stellar-background-ratio="0.5">
+		<div class="effect_2">
+			<div class="container clearfix">
+
+				<div id="content" class="grid_12">
+					<div class="filtr_bg">
+						<span>To Be Terminated!</span>
+						<div class="slogan">
+							<div class="left_bord"></div>
+							<div class="slogan_text">sonidigg</div>
+							<div class="right_bord"></div>
+						</div>
+						<h1>music big data</h1>
+						<a class="button" title="" data-slide="2"></a>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="inset_shadow"></div>
+		</div>
+	</div>
+
+
+	<div class="menu">
+		<div class="container clearfix">
+
+			<div id="nav">
+				<a class="btn_dropdown" data-toggle="collapse"
+					data-target=".nav-collapse_">MENU</a>
+				<ul class="navigation">
+					<li data-slide="2">About</li>
+					<li data-slide="4">Services</li>
+					<li data-slide="6">Works</li>
+					<li data-slide="8">events</li>
+					<li data-slide="10">partners</li>
+					<li data-slide="14">team</li>
+					<li data-slide="12">contact</li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- #about介绍开始 -->
+	<div class="slide" id="slide2" data-slide="2"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>
+					<span>Sonidigg</span>
+				</h2>
+			</div>
+			<div class="clear"></div>
+
+			<div id="content">
+				<div class="grid_12">
+					<h4>Introduction</h4>
+					<p>Sonidigg, as a cutting-edge company which deals with musical
+						data analysis, we intend to count precise statistics in the
+						variety of music scenes, and to quantify, materialize and digitize
+						the accuracy of the abstractive data. So that everything hidden
+						behind the data would be discovered and brought with considerable
+						value.</p>
+					<p>We fertilize data to reshape the music industry.</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+	</div>
+	<!-- #about介绍结束-->
+
+
+	<!-- #services开始 -->
+	<div class="slide" id="slide4" data-slide="4"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>
+					<span>Services</span>
+				</h2>
+			</div>
+			<div class="clear"></div>
+
+			<div id="content">
+				<div class="grid_6">
+					<a class="servc_block" href="javascript:void(0);" alt=""> <span></span>
+						<div class="icon1"></div>
+						<p>Sales data services</p>
+						<div class="clear"></div> This is a terminal device of our entire
+						system based on the “big data to rock”, We are able to know the
+						effect of different places, period or even atmosphere to
+						advertise, with the help of that machine we can do the true
+						accurate advertising.
+					</a>
+				</div>
+				<div class="grid_6 omega">
+					<a class="servc_block" href="javascript:void(0);" alt=""> <span></span>
+						<div class="icon4"></div>
+						<p>Rights protection</p>
+						<div class="clear"></div> We collect all information about songs
+						or artists that wanted,and the represent as music report,such as
+						title, artist, label, ISRC, ISWC, channel, duration, date and
+						time.Collect the quantive data to accurate the rights insurance
+						that should be paid.
+					</a>
+				</div>
+
+				<div class="grid_6">
+					<a class="servc_block" href="javascript:void(0);" alt=""> <span></span>
+						<div class="icon3"></div>
+						<p>Music Events consultant</p>
+						<div class="clear"></div> “POGO Thermometer” can measure the
+						intensity of the audience’s dancing. This is a carpet, but also an
+						array of sensors, more precisely, it is a rock data acquisition
+						system. This simple device is the foundation of these three
+						functions.
+					</a>
+				</div>
+				<div class="grid_6 omega">
+					<a class="servc_block" href="javascript:void(0);" alt=""> <span></span>
+						<div class="icon2"></div>
+						<p>Big data channel</p>
+						<div class="clear"></div> We will know every detail about all the
+						songs on live from videos,TV,videos,music stations.We digg these
+						data as music reports：title, artist, label, ISRC, ISWC, channel,
+						duration, date and time,represent them on the website.
+					</a>
+				</div>
+
+				<div class="clear"></div>
+
+			</div>
+
+		</div>
+	</div>
+	<!-- #services结束 -->
+
+
+	<!-- #Works产品展示开始 -->
+	<div class="slide" id="slide6" data-slide="6"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>
+					<span>Works</span>
+				</h2>
+			</div>
+			<div class="clear"></div>
+
+			<div id="content">
+				<div class="grid_12">
+					<h4>works</h4>
+					<div class="accordion">
+
+						<!-- #下拉点击works开始 -->
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>Artist Purchase</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">Artist selecting for your events</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/idio.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="idio" />
+							<p>
+							<p>This is a terminal device of our entire system based on
+								the “big data to rock”, We are able to know the effect of
+								different places, period or even atmosphere to advertise.we make
+								playgrouds for your events, and select the suitable artists to
+								your events for wonderful affection.</p>
+							<!--  # 优酷视频图显 -->
+							<p>
+								<iframe height=498 width=510
+									src="http://player.youku.com/embed/XNTU5NDIxMDcy" frameborder=0
+									allowfullscreen></iframe>
+							</p>
+							<!-- #优酷视频图显end -->
+
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>Events location promotion</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">location select</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/thermo.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="thermo" />
+							<p>we collect data about the event you are planing,and palyed
+								as consultant to reprents the data that in what area people like
+								you,whick place is perfect for you.</p>
+							<p>
+								<iframe height=498 width=510
+									src="http://player.youku.com/embed/XNTc0OTA0ODEy" frameborder=0
+									allowfullscreen></iframe>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works结束 -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>Investment Consultant</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">find the suitable investor</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/pub.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="pub" />
+							<p>you can use our resources to find investors under our help
+								and directions.that is -- find your MR RIGHT!</p>
+							<p>
+								<iframe height=498 width=510
+									src="http://player.youku.com/embed/XNTY3NDM1MjQ0" frameborder=0
+									allowfullscreen></iframe>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>Music Promotion</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">Marketing consultant</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/livehouse.png"
+								class="attachment-portfolio-thumb wp-post-image" alt="livehouse" />
+							<p>This is a not only database to hold all the information of
+								rockers, but also a platform which can combine bands and fans
+								together. Bands’ recent news and performances can be published
+								in there, for all the fans,there is a paradise to communicate
+								with their idols or other fans. This is the exclusive space of
+								rock.</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>trends analysis</span>
+
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">yes, you beaten 99% artists!</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/trend.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="trend" />
+							<p>With the help of the database, we can know the current
+								music trends and box office situation, we will know which is
+								popular and what kind of band is on fire. After mastered these
+								data we can make predictions for the future of music, helping
+								musicians to develop strategies.</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>Cell phone APP</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">rumors and events of fans</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/pogorock.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="pogorock" />
+							<p>This is a terminal device of our entire system based on
+								the “big data to rock”, We are able to know the effect of
+								different places, period or even atmosphere to advertise, with
+								the help of that machine we can do the true accurate
+								advertising.</p>
+							<p>
+								<img width="300" height="150"
+									src="/static/oldsonidiggimages/diedai.gif"
+									class="attachment-portfolio-thumb wp-post-image" alt="pogorock" />
+							</p>
+
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>Media big data</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">we almost know everything</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/soniradio1.jpg"
+								class="attachment-portfolio-thumb wp-post-image"
+								alt="soniradio1" />
+							<p>We will know every detail about all the songs on live.</p>
+							<ul class="slides">
+								<li><a href="/static/oldsonidiggimages/diedai.gif"
+									title="&nbsp;&nbsp;Sonimate-Radio" rel="lightwindow"><img
+										src="/static/oldsonidiggimages/diedai.gif"
+										alt="&nbsp;&nbsp;Sonimate-Radio"></a></li>
+								<li><a href="/static/oldsonidiggimages/radio.gif"
+									title="&nbsp;&nbsp;Sonimate-Radio" rel="lightwindow"><img
+										src="/static/oldsonidiggimages/radio.gif"
+										alt="&nbsp;&nbsp;Sonimate-Radio"></a></li>
+								<li><a href="/static/oldsonidiggimages/rock.gif"
+									title="&nbsp;&nbsp;Sonimate-Radio" rel="lightwindow"><img
+										src="/static/oldsonidiggimages/rock.gif"
+										alt="&nbsp;&nbsp;Sonimate-Radio"></a></li>
+							</ul>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>copy right Purchase</span>
+
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">analysize the trend of artist,who is the
+								next Justin?</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/idio.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="idio" />
+							<p>Music report：the same as above, solution for the cover &
+								rearranged version</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>Copy rights protection</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">Music report：title, artist, label, ISRC,
+								ISWC, channel, duration, date and time</p>
+
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/ad.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="ad" />
+							<p>“Hey, do you know how many songs played on radio right
+								now?”</p>
+							<p>
+								<a href="/static/oldsonidiggimages/radio.gif"
+									title="&nbsp;&nbsp;Sonimate-Radio" rel="lightwindow"><img
+									src="/static/oldsonidiggimages/radio.gif"
+									alt="&nbsp;&nbsp;Sonimate-Radio"></a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+	</div>
+	<!-- #Works产品展示结束 -->
+
+	<!-- #events开始 -->
+	<div class="slide" id="slide8" data-slide="8"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>
+					<span>Events</span>
+				</h2>
+			</div>
+			<div class="clear"></div>
+
+			<div id="content">
+				<div class="grid_12">
+					<div class="accordion">
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">08/31</div>
+							<div class="ac_plmin"></div>
+							<span>TEDxBohaiBay events</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">TEDxBohaiBay events 08/31/2013</p>
+							<p>Bolloon Wang will share some idea about big data in music
+								field on this show.</p>
+							<a
+								href="http://www.sonidigg.com/wp-content/uploads/2013/08/ted.png"
+								title="TEDxBohaiBay events" rel="lightwindow"><img
+								width="380" height="257"
+								src="http://www.sonidigg.com/wp-content/uploads/2013/08/ted-380x257.png"
+								class="attachment-blog-post-detail wp-post-image" alt="ted" /></a>
+							<p></p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">08/31</div>
+							<div class="ac_plmin"></div>
+							<span>OTN China Tour 2013</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">OTN China Tour 2013 31/08/2013</p>
+							<p>Third Oracle Technology Carnival strikes again!</p>
+							<p>
+								Part of the Schedule：<br /> <a
+									href="http://www.sonidigg.com/wp-content/uploads/2013/08/time.png"><img
+									src="http://www.sonidigg.com/wp-content/uploads/2013/08/time-288x300.png"
+									alt="time" width="288" height="300"
+									class="alignleft size-medium wp-image-478" /></a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">22/08</div>
+							<div class="ac_plmin"></div>
+							<span>New hardware,new life&#8221;,The Hardware
+								Innovations Open Class held by Geeks Park</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">New hardware,new life&#8221;,The Hardware
+								Innovations Open Class held by Geeks Park 22/08</p>
+							<p>
+								“Use data to monitor the music”-Balloon Wang,CEO of Sonidigg<br />
+								<a
+									href="http://www.sonidigg.com/wp-content/uploads/2013/08/macworld_wang.jpg"><img
+									src="http://www.sonidigg.com/wp-content/uploads/2013/08/macworld_wang.jpg"
+									alt="macworld_wang" width="600" height="450"
+									class="aligncenter size-full wp-image-515" /></a><br /> How to
+								understand the audience&#8217;s emotions and their level of
+								interaction? Balloon Wang,the CEO of Sonidigg,brings a novel way
+								to solve this mystery: Let audience vote with their feet.Use the
+								carpet capture their feet movements to get emotional feedback.
+							</p>
+							<p>Balloon Wang analyzed the same data in different stages of
+								one live performances,contrast a singer&#8217;s performance at
+								different period, compared with the same artists performing in
+								different locations, to show us the great value of these data.</p>
+							<p>For more details about the Sonidigg you can check this
+								article:Iterative Rock.</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">15/08</div>
+							<div class="ac_plmin"></div>
+							<span>Rock &#038; Iteration</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">Rock &#038; Iteration 15/08/2013</p>
+							<a
+								href="http://www.sonidigg.com/wp-content/uploads/2013/08/diedai.png"
+								title="Rock &amp; Iteration" rel="lightwindow"><img
+								width="380" height="181"
+								src="http://www.sonidigg.com/wp-content/uploads/2013/08/diedai-380x181.png"
+								class="attachment-blog-post-detail wp-post-image" alt="diedai" /></a>
+							<p>“Come on, i can’t believe there is any relationship with
+								rock music and Iteration.”</p>
+							<p>“Is there any connection between these things? If there
+								is,what is the connection?”</p>
+							<p>“Why rock music,what about the classic?”</p>
+							<p>Perhaps you will have a similar idea after reading the
+								title, but in fact, they can be combined together.</p>
+							<p>Xiang YiNing, which was a designers and musician, has
+								dished out the &#8220;music is product&#8221; concept for the
+								first time in an event organized by Geek Park last year , he
+								said:</p>
+							<p>“A product is a song, the starting point of one rock song
+								is a piece of RIFF, of a product is an idea. Band leader
+								equivalent to the CEO, creative soul of a band as product
+								manager, lead singer / guitarist as visual designer, bass player
+								as interaction designer and drummer as UED / programmer.”</p>
+							<p>He put music as Internet products. However, the
+								relationship between music and Internet products actually more
+								than that, meanwhile,&#8221;iteration&#8221; and music can be
+								associated together.</p>
+							<p>To those product manager, this is not a new word, and
+								&#8220;Quick on-line, rapid iteration&#8221; is one of the basic
+								methods of product development.</p>
+							<p>
+								Associated how?<br /> <a
+									href="http://www.sonidigg.com/wp-content/uploads/2013/08/1.png"><img
+									src="http://www.sonidigg.com/wp-content/uploads/2013/08/1.png"
+									alt="1" width="640" height="139"
+									class="aligncenter size-full wp-image-496" /></a>
+							</p>
+							<p>Step 1:Find the key points.</p>
+							<p>The key to the Internet products’ iteration is to collect
+								product data,which is user’s feedback data, then summarize,
+								analyze and identify further updated version. Similarly, the key
+								to the rock music is also collecting feedback data,
+								precisely,which is the audience response.</p>
+							<p>But the question is, how to collect data in the music
+								scene of the performance? No matter where the band members
+								performed ,such as some poor light mini Live House (like the
+								Foolish Old Man and MAO Livehouse), some bars, or even in a
+								large music festival, it is very difficult to meter audience’
+								reaction, because:</p>
+							<p>1.The feeling slipped away;</p>
+							<p>2.You can’t get the answer by look at a person&#8217;s
+								face, maybe this guy is Steven Seagal.</p>
+							<p>Geeks Park recently met a bunch of people who claimed that
+								they can solve this problem, they call themself Sonidigg. This
+								group used a reasonable way to collect data in order to
+								determine the audience response.</p>
+							<p>Step 2:Get the data right, get the right data.</p>
+							<p>Let&#8217;s get back to the beginning of July MIIC Mobile
+								Internet Innovation Conference, JooMe installed an router and
+								WiFi positioning sensors in the audience’ head which capture the
+								audience networked data, after analyzed these data they
+								successfully quantify the popularity of a speech.</p>
+							<p>
+								<a
+									href="http://www.sonidigg.com/wp-content/uploads/2013/08/2.png"><img
+									src="http://www.sonidigg.com/wp-content/uploads/2013/08/2-300x68.png"
+									alt="2" width="640" height="146"
+									class="aligncenter size-full wp-image-497" /></a>
+							</p>
+							<p>Sonidigg has a similar way to finish this kind of data
+								collection, but the focus shifted from the head to the feet, and
+								the acquisition devices are also turned into a rug from the
+								router, they called it Pedimoni open source carpets.</p>
+							<p>The carpet made by Sonidigg’ founder Balloon Wang, he is
+								also the lead singer of the band named Churen Huai Yu Wang. As a
+								musician, he also encountered the problem mentioned at the
+								beginning, &#8220;Came to light after a fight, following a dark,
+								watching less than the audience, the sound i heard and the voice
+								made by audience is not the same, nobody can determine the
+								performance effects. &#8220;So he decided to do something to
+								help him out to determine the effect of live performances, the
+								band then be arranged according to this thing adjusted.</p>
+							<p>In his opinion, you can titillate cheers in a rock show,
+								applause can beg, but the audience&#8217;s response was not
+								really hidden. For us humans, the most instinctive understanding
+								of music begins with one step, it can be said that the audience
+								of the &#8220;lower body&#8221; is an important criterion for
+								detection of live performances. So Wang and his team put out a
+								carpet, which uses piezoelectric ceramic to perceive the
+								deformation on the floor, collecting, aggregating, and analyzing
+								all the signal, but because the carpet is not easy to deploy, so
+								follow the evolution of both the installation or even more
+								simple and convenient removal of carpet.</p>
+							<p>
+								<a
+									href="http://www.sonidigg.com/wp-content/uploads/2013/08/3.png"><img
+									src="http://www.sonidigg.com/wp-content/uploads/2013/08/3-300x95.png"
+									alt="3" width="640" height="204"
+									class="aligncenter size-full wp-image-498" /></a><br /> <a
+									href="http://www.sonidigg.com/wp-content/uploads/2013/08/4.png"><img
+									src="http://www.sonidigg.com/wp-content/uploads/2013/08/4-300x89.png"
+									alt="4" width="640" height="191" class="class=" aligncenter
+									size-full wp-image-499" /></a>
+							</p>
+							<p>Mao LiveHouse</p>
+							<p>The principle is very simple: capture the audience
+								stampede strength and frequency and other original data.</p>
+							<p>Presentation of data.</p>
+							<p>Step 3：:Analysis &#038; Iteration</p>
+							<p>
+								Comprehensive audience stampede efforts, frequency, temperature,
+								and other factors, by the algorithm to quantify the
+								audience&#8217;s reaction, side effects come on-site, we can
+								draw many valuable conclusions.<br /> <a
+									href="http://www.sonidigg.com/wp-content/uploads/2013/08/diedai.png"><img
+									src="http://www.sonidigg.com/wp-content/uploads/2013/08/diedai-300x143.png"
+									alt="diedai" width="630" height="320"
+									class="aligncenter size-full wp-image-359" /></a>
+							</p>
+							<p>By observing these data, we can find out when synchronized
+								came out, there is a jump or some fancy Solo, its effect POGO
+								gain much more than we expect. They can tell you that which song
+								or even what part of this popular glance is really “popular”.
+								Bands can check the data reporting, analysis, which tracks
+								exactly which part needs to be improved, and thus the formation
+								of new rock melodies.</p>
+							<p>Say that again please?</p>
+							<p>“Speak English!”</p>
+							<p>
+								OK, i got it, just check this picture out dude.<br /> <a
+									href="http://www.sonidigg.com/wp-content/uploads/2013/08/6.png"><img
+									src="http://www.sonidigg.com/wp-content/uploads/2013/08/6-300x179.png"
+									alt="6" width="630" height="376"
+									class="aligncenter size-full wp-image-500" /></a>
+							</p>
+							<p>
+								Behold, the great Rock &#038; Iteration Figure!<br /> <a
+									href="http://www.sonidigg.com/wp-content/uploads/2013/08/7.png"><img
+									src="http://www.sonidigg.com/wp-content/uploads/2013/08/7-300x66.png"
+									alt="7" width="640" height="141"
+									class="aligncenter size-full wp-image-501" /></a>
+							</p>
+							<p>What else?</p>
+							<p>
+								Described above is the single band analysis, if we do some
+								horizontal contrast, then what kind of results we will get? Yes,
+								who is more popular. It is very important for some brands,
+								because we can see which bands is the best, we can treat all
+								these conclusion as an important reference for future
+								investments.<br /> <a
+									href="http://www.sonidigg.com/wp-content/uploads/2013/08/8.png"><img
+									src="http://www.sonidigg.com/wp-content/uploads/2013/08/8-240x300.png"
+									alt="8" width="320" height="400"
+									class="aligncenter size-full wp-image-502" /></a>
+							</p>
+							<p>Horizontal contrast four band’ &#8220;Average POGO
+								Value&#8221;</p>
+							<p>After all, the real data is more reliable than intuition,
+								you can not guarantee that you would hear every song in every
+								show, but you do can glance through the intuitive information
+								map.</p>
+							<p>Attack on Internet Thinking</p>
+							<p>Although they do not necessarily change the entire music
+								industry, but we would be able to see that this is the first
+								time Internet thinking attack on the traditional industries of
+								the invasion，of course this is not the FIRST invasion target on
+								traditional industries, don’t you remember Tesla?</p>
+							<p>I&#8217;ve seen a lot of so-called smart cars, smart TV,
+								they simply put Android system into a car then everything seems
+								to be &#8220;smart.&#8221; In fact, they did not understand the
+								spirit of the Internet, it’s not like this.</p>
+							<p>What we need is change from the inside, it’s thorny,
+								isn&#8217;t it?</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">02/07</div>
+							<div class="ac_plmin"></div>
+							<span>“People in Hackathon” Bolloon Wang: A geek with Rock
+								flavor</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">“People in Hackathon” Bolloon Wang: A
+								geek with Rock flavor 02/07/2013</p>
+							<a
+								href="http://www.sonidigg.com/wp-content/uploads/2013/07/IMG_6312-缩.jpg"
+								title="“People in Hackathon” Bolloon Wang:  A geek with Rock flavor"
+								rel="lightwindow"><img width="380" height="253"
+								src="http://www.sonidigg.com/wp-content/uploads/2013/07/IMG_6312-缩-380x253.jpg"
+								class="attachment-blog-post-detail wp-post-image"
+								alt="IMG_6312 缩" /></a>
+							<p>Bolloon Wang is a very well-behaved children, at least his
+								parents and teachers think so: he goes to collage, picking a
+								major and became a graduate student. But nothing could hide his
+								clever creations heart. After a series of twists and turns, he
+								finally got the recognition of his parents and mentors, embarked
+								on the road of entrepreneurship. As a graduate student in BUAA
+								he found a company called Sonidigg. There will be what kind of
+								story behind a singer who engaged in the hardware?</p>
+							<p>He is a good boy and little &#8220;rebellion&#8221;</p>
+							<p>Balloon is a very obedient child and also a hard-working
+								student, he also obey the guidance of his parents and chose to
+								study Electrical Engineering when the university entrance exam
+								began. Almost all the course was &#8220;strong
+								power&#8221;-related and with nothing in their own interest. But
+								because he chose this profession he mastered a lot of
+								hardware-related knowledge, and without prejudice to the premise
+								of learning he begins &#8220;mischief&#8221;.</p>
+							<p>In May 2008, he and his classmates invented the
+								&#8220;Internet cafes intelligent safe-box”, in order to
+								optimize the user experience of products, he will show it to the
+								Internet users and gather their feedback after each update. A
+								small amount of production out of the box acclaimed,after that
+								they have applied the relevant patent.</p>
+							<p>In the ensuing months, they took this project students
+								participated in the National Entrepreneurship Competition,
+								became the champion and won the 100,000 RMB. Later, he would
+								like to use the funds to put this project to market with other
+								students. Due to obstruction of the family he can dispel the
+								idea of entrepreneurship, complete their studies
+								&#8220;obediently&#8221;.</p>
+							<p>&#8220;Although I do not like this major, but my
+								graduation thesis and project are still relates to it.&#8221;</p>
+							<p>After graduation, after comprehensive consideration by his
+								family and himself, he chose to go to BUAA for further studies.
+								In fact, in his heart he did not care mentor&#8217;s strength at
+								all, he hopes to be able to mentor him stocking-style management
+								and do interesting things in the lab. Under the guidance of his
+								family, he followed a very famous president.</p>
+							<p>Music combined with the hardware</p>
+							<p>He also has a very wild identity &#8211; the leader to
+								Hunan neo-folk music, the stage name of him is
+								&#8220;Mr.pregnant.&#8221; Also, he participated in a lot of
+								games and get some remarkable results in the past year, for
+								example, the band tryouts Midi campus of Hunan Division
+								champion. He went to Hunan Economic TV recorded live
+								thirty-minute interview in this May then won the recognition of
+								his family and mentors. Since then, he was free.</p>
+							<p>Then they began to perform in different places. Tech
+								background knowledge as he has, naturally, he want to do
+								something serious in this field. Through long-term observation,
+								he found the audience on an infectious rock songs will make some
+								instinctive responses, such as stomping, and even jumping. If
+								there is a restless audience carpet extent can be collected, and
+								the way the image projected onto the screen, which is not only a
+								new type of on-site interaction, better for the music and the
+								performer to provide a rational digitized reference standard.</p>
+							<p>Although the concept of the product linger in his mind for
+								several months, but by the venue and material constraints, he
+								can only stay in the thinking stage.</p>
+							<p>In last September, Beijing Makerspace was involved an
+								installation art exhibition, Balloon build up a carpet on the
+								ground according to the circumstances of the screen display to
+								bring about interactive effects. After the event, looking at the
+								space left by the board he felt that it’s time to take action.
+								The audience was intoxicated by the music, the intensity was
+								also growing, there were many &#8220;the point of
+								explosion&#8221; on the big screen, This live interactive way to
+								get a sponsor investors was highly recognized and subsequently
+								obtained an secret investor.</p>
+							<p>Entrepreneurship made him grow</p>
+							<p>Unlike most of the students, Wang now has built a team. He
+								get the investment, coupled with Beijing Makerspace incubator
+								support, so that he realized the entrepreneurial dream. But in
+								the process of entrepreneurship, he gradually discovered some
+								new problems.</p>
+							<p>Back to the period when he fought alone, he doesn&#8217;t
+								need to think more about people, as long as you can concentrate
+								on products. With the team he found that the efficiency of the
+								players sometimes do not reach their expectations, he need to
+								manage.</p>
+							<p>&#8220;In fact, I don’t like to control others, but now I
+								really have to be &#8216;carrot and stick&#8217; just for the
+								team and the project, and I hope that the entire team will get
+								more ‘engineers’ feeling, I want to take them towards a better
+								future.&#8221;</p>
+							<p>By his father&#8217;s influence, he was get used to speak
+								straight and doesn&#8217;t need to consider the consequences.
+								After suffered several setbacks he had realized what information
+								can be external stresses, which must be tight-lipped. A lot of
+								things from someone else&#8217;s mouth sounds simple, but when
+								he encountered that case, they may be quite different.</p>
+							<p>Epilogue</p>
+							<p>Lei Feng network organized as we create customer marathon
+								day approaching, I asked Balloon that what would create a
+								similar product, and his answer was &#8220;Big Mouse
+								plan.&#8221; Previously he was seen some people from different
+								backgrounds will come out corrupt officials arrested the
+								dissemination of information, and a list of appropriate models
+								and punish corrupt data. However, most of this information did
+								not cause a lot of people&#8217;s attention, he wanted to put
+								the data collected through the App up and show the way to better
+								interact in front of the mobile phone users. By that time, who
+								is &#8220;flies&#8221;, who is the &#8220;Tiger&#8221; at a
+								glance.</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">28/04</div>
+							<div class="ac_plmin"></div>
+							<span>Exclusive Music: From POGO thermometer to POGO
+								thermo</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">Exclusive Music: From POGO thermometer to
+								POGO thermo 28/04/2013</p>
+							<a
+								href="http://www.sonidigg.com/wp-content/uploads/2013/04/1.jpg"
+								title="2013 Beijing Midi Music Festival,the hottest rock event you can ever seen"
+								rel="lightwindow"><img width="380" height="214"
+								src="http://www.sonidigg.com/wp-content/uploads/2013/04/1-380x214.jpg"
+								class="attachment-blog-post-detail wp-post-image" alt="1" /></a>
+							<p>In addition to the wonderful performances there is a very
+								remarkable focus &#8211; Midi Stage for Kids. This is a secret
+								gift for many who love music &#038; life and,of course,their
+								children.</p>
+							<p>Midi Stage for Kids is currently unique arena for
+								children, so that children in the small band can brings
+								brilliant performances on stage, as well as safe and fun play
+								equipment, all these event are intended to bring the children
+								more opportunities to experience music and art.</p>
+							<p>There is an &#8220;Easy-to-Picture-Myself Museum&#8221;at
+								the audience place, as well as Children&#8217;s Painting,
+								Musical Instrument Experience, Handmade Place, Green Frogs and
+								porcelain dolls and other rich content.</p>
+							<p>Undoubtedly, &#8220;Steps Into poem Maker&#8221; became
+								the real focus of the audience. Kids can bouncing and stampede
+								on the carpet arbitrarily, the equipment under the carpet can be
+								perceived stampede efforts, angle and position, and then put
+								different text content to show on the big screen, generate these
+								verses text, supplemented by reading function, let the children
+								easily step out their own wonderful poems when enjoying playing.</p>
+							<p>This activity is not only to increase interactivity and
+								fun, but also increase the joy of knowledge and learning.</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">11/04</div>
+							<div class="ac_plmin"></div>
+							<span>Exclusive Music: From POGO thermometer to POGO
+								thermo</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">Exclusive Music: From POGO thermometer to
+								POGO thermo 11/04/2013</p>
+							<a
+								href="http://www.sonidigg.com/wp-content/uploads/2013/08/congzaomianwenduji.png"
+								title="Exclusive Music: From POGO thermometer to POGO thermo"
+								rel="lightwindow"><img
+								src="http://www.sonidigg.com/wp-content/uploads/2013/08/congzaomianwenduji.png"
+								alt="Exclusive Music: From POGO thermometer to POGO thermo"></a>
+							<p>December 6, 2012 , a lecture entitled &#8220;If POGO can
+								be measured&#8221; began in Beijing MAO livehouse . A few months
+								later, carries the dream of rock scene change , Mr.Pregnant,
+								founder of the thermometer was preparing for the establishment
+								of the POGO thermo . So what exactly is POGO thermometer and
+								POGO thermo ? It will give what kind of rock &#038; roll
+								ecological impact ? With doubt and curiosity , musicians Raiders
+								interviewed noise thermometer founder Mr.Pregnant.</p>
+							<p>Q: What is the POGO thermometer ? Can you give an
+								introduction of it ?</p>
+							<p>A: It’s used to measure the “noise” of POGO .</p>
+							<p>POGO as rock a traditional sport has been going on which
+								was never been quantified. POGO thermometer laid in rock scene
+								through the pressure sensor array will Die Wall, Driving Trains
+								, Diving and other traditional style has been on the frequency
+								and intensity quantify POGO and let the&#8221; noise up
+								&#8220;as the core of the rock scene can be objectively record
+								the flow of information to improve the efficiency of rock &#038;
+								roll.</p>
+							<p>For more detailed description of POGO thermometer , check
+								this video below :</p>
+							<p>Q：I just think of how to invent this thing.</p>
+							<p>A： Good creations are instinctive , either rock or
+								technological inventions. As a singer , often came to light
+								after a fight, following a dark, watching less than the
+								audience, the sound i heard and the voice made by audience is
+								not the same, nobody can determine the performance effects.</p>
+							<p>Then he start seek feedback hungry and asked fans :
+								&#8221; What you think about it?&#8221; fans replied: &#8221;
+								Awesome, fantastic, beautiful, remarkable &#038; F kin&#8217;
+								Perfect &#8221; nothing more.( of course they sometimes admire
+								my &#8221; evil F disk &#8221; sing very evil , and then asked
+								that where to buy those pornographic magazine)</p>
+							<p>This is absolutely intolerable , which makes each
+								rehearsal are not precise planning, I need a closed loop control
+								system , so there it is .</p>
+							<p>Q: So far, how many live performances that POGO
+								thermometer participated in?</p>
+							<p>A: The answer is 16 performances , more than three hundred
+								songs , including rock &#038; ballads ( conversely data equally
+								effective ) ; measured the theme of small-scale performances,
+								also measured Escape Plan “metamorphosis” special show.</p>
+							<p>What were the band and the audience feedback ? Record
+								companies, what kind of repercussions that shows to organizers
+								and venue providers?</p>
+							<p>At first I told the band when they will actually nervous,
+								so the band and its fans with publicly available data must pay
+								attention to strategy . Do not put POGO data for horizontal
+								comparison with the other band , saying only that the
+								longitudinal things : Which song got the highest POGO feedback
+								;part of the data belonging to privately communicate with the
+								band , we measured the band there is already a part of holding
+								data report in rehearsal .</p>
+							<p>B2B part it relates to the core secrets of horizontal
+								comparison : Which bands best . This is also the most
+								interesting content for the performances company , has entered
+								into a collaboration with some brands. Now this two-month
+								technical upgrade is complete and they has started carry out the
+								data services immediately.</p>
+							<p>Q: What about the future of POGO thermometer?</p>
+							<p>A: Expectations of the future is that we can form an
+								industry standard. Now we have a new brand, &#8221; POGO
+								thermo&#8221; hoping to help the new brand to do more .</p>
+							<p>Q: POGO thermometer, a very special name, how the thought
+								of starting such a name at first time?</p>
+							<p>1, From the point of view which refers to the scope of
+								future upgraded program in the rock scene , there will be a live
+								audio and video data recording and visualization interactive
+								content , &#8221; thermometer&#8221; can only be used to refer
+								to devices , &#8220;POGO thermo &#8221; is more like a set of
+								systems .</p>
+							<p>2, For the extended meaning, this is the energy measuring
+								mechanism that can bristling big ears on the crustal impact
+								exercise vigilance. The country&#8217;s major livehouse as a
+								fixed seismic source , will be staged every evening by capture
+								different magnitude motion, it also can gave a timely warning of
+								natural disasters and prevention , it is our responsibility .</p>
+							<p>3, For the business positioning meaning, the data itself
+								can be a supplier of brand positioning, we do not sell hardware,
+								we free shop and everyday we measured then the data is in the
+								soil to grow wheat .</p>
+							<p>Q: Music is emotional, why use scientific means to
+								evaluate the music?</p>
+							<p>A: The famous Uncertainty Principle showed that: a certain
+								physical quantities of microscopic particles are impossible to
+								determine the value of both part, one more the amount determined
+								, another quantity , the greater the degree of uncertainty .
+								Energy and information comes from rock is a pair of conjugate
+								quantity , POGO thermo treat the monitored as the energy , and
+								the energy was made by the lower body , upper body
+								characterization therefore become blurred, which is why we need
+								to hold &#8221; uncertainty &#8221; Music Season , this theme
+								the subtext is clear: &#8220;I&#8217;m sorry , we can only use
+								our lower body .&#8221;</p>
+							<p>Exclusive Secret: POGO thermometer data collected at the
+								scene</p>
+							<p>In MAO livehouse,the strongest earthquakes occur in the
+								Escape Plan New Year&#8217;s Eve concert , through historical
+								earthquake records we found , is the historical average of 408%
+								.</p>
+							<p>The strongest earthquake occurred in the Escape Plan
+								singles band singing &#8221; Sad Ten Thousand Times&#8221; when
+								the band on the spot than the average magnitude of 117.3% ;
+								&#8221; Brightest Star In The Sky &#8221; is actually expected
+								to create a strong earthquake , but because of band’s leader
+								called on everyone to illuminate the hands of the flash, most of
+								the energy is dissipated in the hand , has become the quietest
+								audience an earthquake magnitude is 86.3% of the average spot .</p>
+							<p>As a warm up band, you often need to work harder to get
+								respect , such 16 min, as a warm up band in the Escape Plan’s
+								show , the first four songs of the earthquake level of 61.7% of
+								Escape Plan , there are people booed scattered applause , later
+								guitarist crazy , relying a magnitude of 87.3% in the escape
+								plan curtain call song won everyone&#8217;s applause.</p>
+							<p>Same front row full of people , AV Okubo earthquake escape
+								plan level only 54.2% of its famous song &#8220;love song&#8221;
+								earthquake index beyond the scene of some of the songs escape
+								plan , but the other songs , the average magnitude only love
+								song of 56.7% &#8230;&#8230; so it can be said that we hear such
+								a song is to just drive over .</p>
+							<p>In contrast, escape plan with every single earthquake
+								index is very stable, at an average level of 80% to 120% of
+								hovering , his work can be seen strong comprehensive strength .</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">16/12</div>
+							<div class="ac_plmin"></div>
+							<span>POGO Thermometer</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">POGO Thermometer 16/12/2012</p>
+							<p>Bolloon Wang will share some idea about big data in music
+								field on this show.</p>
+							<a
+								href="http://www.sonidigg.com/wp-content/uploads/2012/12/global-times-1024x504.png"
+								title="POGO Thermometer" rel="lightwindow"><img width="380"
+								height="187"
+								src="http://www.sonidigg.com/wp-content/uploads/2012/12/global-times-380x187.png"
+								class="attachment-blog-post-detail wp-post-image"
+								alt="global times" /></a>
+							<p>Some people are already exploring the power of data in
+								realms outside of health. Wang Bolong, the lead singer of punk
+								band Bear Warrior, wanted to find a way to measure the audience
+								response in order to see how well his band really performed.</p>
+							<p>&#8220;If you ask a fan what he or she thinks of the show,
+								they only give you vague feedback like &#8216;it was
+								good,&#8217; but nothing specific that we could actually use to
+								improve ourselves,&#8221; said Wang, whose stage name is
+								&#8220;Mr Pregnant.&#8221; The 24-year-old is also a graduate
+								student majoring in precision instruments at Beijing University
+								of Aeronautics and Astronautics.</p>
+							<p>In September he set out to design a device called the
+								&#8220;POGO Thermometer,&#8221; which measures the intensity of
+								the audience&#8217;s dancing.</p>
+							<p>After three months of trial and error, he embedded several
+								sensors in a carpet that transmit data on people&#8217;s
+								movements to a computer where it is analyzed. The data is then
+								transformed into graphs to give a clear visual presentation of
+								the audience&#8217;s response.</p>
+							<p>Based on his examination of the results from one
+								performance, Wang found that fans started moving their bodies
+								when the drums kicked in, and they danced the most energetically
+								when he sang higher notes.</p>
+							<p>Wang believes that such data helps the band improve its
+								songwriting, arrangements and performance. He concluded after
+								analyzing the data for one of their songs that the chorus was
+								too monotonous. The audience seemed bored, and they did not
+								respond with much enthusiasm, prompting Wang to consider working
+								on the band&#8217;s stage presence.</p>
+							<p>Such data tells performers whether they have delivered the
+								emotion and meaning they wanted to convey through their music,
+								explained Wang. &#8220;The data helps us understand how we can
+								improve our performance to make the audience respond to our
+								music like we intend,&#8221; he said.</p>
+							<p>The carpet debuted in the band&#8217;s performance at Mao
+								Livehouse on December 6. Since then he has collected data from
+								more than 10 concerts, including over 20 bands, and has recorded
+								the impact of dancing feet during over 120 songs. Soon he plans
+								to make the data public in order to share findings and adopt
+								better analysis tools.</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+	</div>
+	<!-- #services结束 -->
+
+	<!-- #合作伙伴开始 -->
+	<div class="slide" id="slide10" data-slide="10"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+			<div id="content" class="grid_12">
+				<h2>
+					<span>Partners</span>
+				</h2>
+			</div>
+			<div class="clear"></div>
+
+			<!-- #图片效果开始-
+			<div id="contenet">
+				<div class="overflow_hidden">
+					<div class="gallery-list">
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/1small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/1.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						
+						
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/2small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/2.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/3small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/3.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						<div class="img_block omega">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/4small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/4.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/5small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/5.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/6small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/6.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/7small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/7.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						<div class="img_block omega">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/8small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/8.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			<!-- #图片效果结束 -->
+			<div id="contenet">
+				<div class="overflow_hidden">
+					<!-- #友情链接地址 -->
+					<div id="clients-flexslider" class="flexslider home clients">
+						<div class="headline"></div>
+
+						<div class="flex-viewport"
+							style="overflow: hidden; position: relative;">
+							<img src="/static/tubiao/sonidiggcopy.png" alt="">
+							<!-- # 
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/cctv.jpg" alt="">
+								<img src="/static/tubiao/cbc.gif" class="color-img" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/cctv.jpg" alt="">
+								<img src="/static/tubiao/csdn.png" class="color-img" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/cbc.gif" alt="">
+								<img src="/static/tubiao/oracle.jpg" class="color-img" alt="">
+						</a></li>
+
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/北京创客空间.jpg" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/大数据实验室.jpg" alt="">
+								<img src="/static/tubiao/云基地.png" class="color-img" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/华视传媒.png" alt="">
+								<img src="/static/tubiao/华视传媒.jpg" class="color-img" alt="">
+						</a></li>
+
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/欢网.png" alt="">
+								<img src="/static/tubiao/迷笛.jpg" class="color-img" alt="">
+						</a></li>
+
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/音著协.jpg" alt="">
+								<img src="/static/tubiao/国家音乐产业基地.jpg" class="color-img" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/热波传媒.png" alt="">
+								<img src="/static/tubiao/摩登天空.jpg" class="color-img" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/shennian.jpg" alt="">
+								<img src="/static/tubiao/音乐人攻略.png" class="color-img" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/天浩盛世.gif" alt="">
+								<img src="/static/tubiao/sina.jpg" class="color-img" alt="">
+						</a></li><!--#-->
+						</div>
+						<!-- #友情链接地址 -->
+					</div>
+				</div>
+			</div>
+			<!-- #合作伙伴结束 -->
+		</div>
+	</div>
+	<!-- #团队成员开始 -->
+
+	<div class="slide" id="slide14" data-slide="14"
+		data-stellar-background-ratio="0.5">
+
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>
+					<span>Team</span>
+				</h2>
+			</div>
+			<div class="clear"></div>
+			<!-- #圆形图像效果 -->
+			<div id="contenet">
+				<div class="gallery_block">
+					<h4>Gallery</h4>
+					<div class="gallery-list">
+						<!-- portfolio_block -->
+						<div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img"
+										src="/static/Snagit/wang-bolong.jpg" alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Bolloon Wang</p>
+										Founder, CEO
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/yinying.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>CoCo.Y</p>
+										Creative Director
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img"
+										src="/static/Snagit/dixianjun.jpg" alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>XianXian.D</p>
+										Software Engineer
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img"
+										src="/static/Snagit/zhuchenxu.jpg" alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>God Of Pee</p>
+										CBO
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/juyuhao.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Roscoe.J</p>
+										Software Engineer
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img"
+										src="/static/Snagit/limingyao.jpg" alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>MingYao.Li</p>
+										Software Engineer
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/Echo.C.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Echo.C</p>
+										Engineer(pic)
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/skylor.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Skylor.Z</p>
+										Data Engineer
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/Simon.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Simon.X</p>
+										Software Engineer
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/dongchen.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Yadon.C</p>
+										Engineer(pic)
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/Pino.W.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Pino.W</p>
+										Director of Visual(pic)
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/Kurt.Z.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Kurt.Z</p>
+										Electrical Engineer(pic)
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/zhuliangkun.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>LiangKun.Z</p>
+										Software Engineer
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/chenbinghan.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>BingHan.C</p>
+										Marketing Director
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/wangxiaoyan.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Swan.WANG</p>
+										Bussiness Assistant
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/changyaner.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Yaner.C</p>
+										Executive Secretary
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<!-- //portfolio_block -->
+					</div>
+				</div>
+				<img class="icon_heart" src="/static/oldsonidiggimages/icon1.png" />
+			</div>
+			<!-- #圆形图像效果end -->
+
+		</div>
+	</div>
+	<!-- #团队成员结束 -->
+
+	<!-- #Contact开始 -->
+	<div class="slide" id="slide12" data-slide="12"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>Contact</h2>
+			</div>
+			<div class="clear"></div>
+
+			<div id="content">
+				<div class="grid_6">
+					<h4>Address</h4>
+					<p>Sonidigg development center locates at "Tower C, Cloud
+						Vally,ShangDi International software Zone,HaiDian
+						District,Beijing",besides R&D center of Bank of China adn Baidu
+						Building</p>
+					<p>As teh future trends goes, we opend a new mathmatic center
+						in YiZhuang Development District for further develpment.</p>
+					<p>Parking here is convinent and easy, for there are parking
+						stations and you can also park your car nearby the roads.</p>
+				</div>
+				<div class="grid_6 omega">
+					<h4>Company Address</h4>
+					<ul class="pers_inf">
+						<li><span>Phone</span>(+010) 62418396</li>
+						<li><span>Development Center</span>Tower C,Cloud
+							Base,XierQi,Haidian,Beijing</li>
+						<li><span>ChangSha center</span>YaDe Road,KaiFu
+							District,ChangSha City</li>
+						<li><span>Email</span><a href="mailto:wbl@sonidigg.com">wbl@sonidigg.com</a></li>
+						<li><span>Website</span><a href="/englishpage">Sonidigg
+								English page</a></li>
+						<li><span>中文版网站</span><a href="/chinesepage">数音堂中文网站</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<div id="map_block">
+		<iframe width="100%" height="722" frameborder="0" scrolling="no"
+			marginheight="0" marginwidth="0"
+			src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=ruanjianyuan No.1 Road+Beijing+China&amp;aq=&amp;sll=40.048511316272,116.297321319580&amp;sspn=0.036836,0.080338&amp;ie=UTF8&amp;hq=&amp;hnear=ruanjianyuan No.1 Road+Beijing+China&amp;ll=40.048511316272,116.297321319580&amp;sspn=0.036836,0.080338&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+	</div>
+	<!--  src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=los+angeles&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=53.080379,114.169922&amp;ie=UTF8&amp;hq=&amp;hnear=Los+Angeles,+California&amp;ll=34.052234,-118.243685&amp;spn=0.003427,0.006968&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+https://maps.google.com/maps/place?cid=2540952731003037291&authuser=0&continue=https:%2F%2Fmaps.google.com%2Fmaps%3Ff%3Dq%26source%3Ds_q%26hl%3Dzh-CN%26geocode%3D%26q%3D%25E6%25B5%25B7%25E6%25B7%2580%25E5%258C%25BA%25E4%25B8%258A%25E5%259C%25B0%25E4%25B8%2583%25E8%25A1%2597%25E4%25BA%2591%25E5%259F%25BA%25E5%
+259C%25B0%26aq%3D%26sll%3D39.969556,116.30024%26sspn%3D0.036836,0.080338%26vpsrc%3D6%26ie%3DUTF8%26hq%3D%25E4%25BA%2591%25E5%259F%25BA%25E5%259C%25B0%26hnear%3D%25E4%25B8%25AD%25E5%259B%25BD%25E5%258C%2597%25E4%25BA%25AC%25E5%25B8%2582%25E6%25B5%25B7%25E6%25B7%2580%25E5%258C%25BA%25E4%25B8%258A%25E5%259C%25B0%25E4%25B8%2583%25E8%25A1%2597%26ll%3D40.049727,116.3001%26spn%3D0.004599,0.010042%26t%3Dm%26z%3D17%26iwloc%3DA&mode=edit&ep=actbar-iw-wrapper
+
+/* <![CDATA[ */
+var AjaxHelper = {"blog_url":"http:\/\/www.sonidigg.com\/wp-content\/themes\/disillusion\/template-news.php","portfolio_url":"http:\/\/www.sonidigg.com\/wp-content\/themes\/disillusion\/template-portfolio.php","portfolio2_url":"http:\/\/www.sonidigg.com\/wp-content\/themes\/disillusion\/template-portfolio2.php","ajaxurl":"http:\/\/www.sonidigg.com\/wp-admin\/admin-ajax.php","pt_twitter_path":"http:\/\/www.sonidigg.com\/wp-content\/themes\/disillusion\/functions\/twitter\/"};
+var pt_settings = {"base_color":"#fb8047","google_maps_circle_color":"#fb8047","google_maps_landscape_color":"#ffffff","google_maps_water_color":"#d4d4d4","portfolio_items_page":"4","blog_items_page":"16","pt_google_maps_latitude_1":"39.98268","pt_google_maps_longitude_1":"116.315163","pt_google_maps_title_popover_1":"","pt_google_maps_text_popover_1":"","pt_google_maps_latitude_2":"39.783312","pt_google_maps_longitude_2":"116.494621","pt_google_maps_title_popover_2":"","pt_google_maps_text_popover_2":"","pt_google_maps_latitude_3":"30.613391","pt_google_maps_longitude_3":"114.137514","pt_google_maps_title_popover_3":"","pt_google_maps_text_popover_3":"","pt_google_maps_latitude_4":"40.052174","pt_google_maps_longitude_4":"116.297618","pt_google_maps_title_popover_4":"","pt_google_maps_text_popover_4":""};
+/* ]]> */		
+				
+				-->
+
+	<!-- #Contact结束 -->
+
+	<!-- #footer开始 -->
+	<div id="footer">
+		<div class="container clearfix">
+			<div class="copyright">
+				Copyright © 2013 SoniDigg &copy; |All rights reserved.<a
+					href="javascript:void(0);">Sonidigg</a>
+			</div>
+			<div id="back_top">
+				<a class="button" title="" data-slide="1"></a>
+			</div>
+		</div>
+	</div>
+	<!-- #footer结束 -->
+</body>
+</html>

@@ -1,0 +1,593 @@
+<!DOCTYPE HTML>
+<html>
+<!-- #head 开始-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale = 1.0, user-scalable = no">
+<title>page5303english</title>
+<link type="text/css" rel="stylesheet" href="/static/5303css/css.css">
+<link type="text/css" rel="stylesheet" href="/static/5303css/style.css"
+	media="screen">
+<link type="text/css" rel="stylesheet"
+	href="/static/5303css/prettyPhoto.css">
+<link type="text/css" rel="stylesheet"
+	href="/static/5303css/normalize.css">
+<link type="text/css" rel="stylesheet" href="/static/5303css/grid.css">
+
+<link href='http://fonts.googleapis.com/css?family=Anton'
+	rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,700,300'
+	rel='stylesheet' type='text/css'>
+
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="/static/5303js/jquery.easing.1.3.js"></script>
+<script type="text/javascript"
+	src="/static/5303js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="/static/5303js/jquery.sticky.js"></script>
+<script type="text/javascript" src="/static/5303js/js.js"></script>
+<script type="text/javascript"
+	src="/static/5303js/jquery.stellar.min.js"></script>
+<script type="text/javascript" src="/static/5303js/waypoints.min.js"></script>
+
+<!--[if lt IE 9]>
+		<script src="/static/5303js/html5shiv.js"></script>
+		<script src="/static/5303js/respond.src.js"></script>
+		<style type="text/css">
+			.circle_img {display:none; }
+			#slide1 span {font-size:26px;}
+		</style>
+	<![endif]-->
+
+<script type="text/javascript">
+	$(document)
+			.ready(
+					function() {
+						$("#ajax-contact-form")
+								.submit(
+										function() {
+											var str = $(this).serialize();
+											$
+													.ajax({
+														type : "POST",
+														url : "contact_form/contact_process.php",
+														data : str,
+														success : function(msg) {
+															// Message Sent - Show the 'Thank You' message and hide the form
+															if (msg == 'OK') {
+																result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
+																$("#fields")
+																		.hide();
+															} else {
+																result = msg;
+															}
+															$('#note').html(
+																	result);
+														}
+													});
+											return false;
+										});
+
+					});
+</script>
+
+</head>
+<!-- #head end -->
+<body>
+
+	<div class="slide" id="slide1" data-slide="1"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<div class="filtr_bg">
+					<h1>ios应用</h1>
+					<div class="slogan">
+						<div class="left_bord"></div>
+						<div class="slogan_text">创想科技之美</div>
+						<div class="right_bord"></div>
+					</div>
+					<a class="button" title="" data-slide="2"></a>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+
+<!-- #导航条开始 -->
+	<div class="menu">
+		<div class="container clearfix">
+
+			<div id="logo" class="fleft">
+				<a href="index.html"><img src="/static/5303images/logo.png" /></a>
+			</div>
+
+			<div id="nav" class="fright">
+				<ul class="navigation">
+					<li data-slide="1">主页</li>
+					<li data-slide="2">简介</li>
+					<li data-slide="4">内容详情</li>
+					<li data-slide="6">团队介绍</li>
+					<li data-slide="8">联系我们</li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+<!-- #导航条end -->
+
+<!-- #简介开始 -->
+	<div class="slide" id="slide2" data-slide="2"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+			
+			
+			<div id="content"><!-- #图标效果结束 -->
+				<div class="grid_3">
+					<a class="servc_block" href="javascript:void(0);" alt="">
+						<div class="icon_bord">
+							<img class="icon1" src="/static/5308images/icon1.png" /> <img
+								class="icon1_h" src="/static/5308images/icon1_h.png" />
+						</div>
+						<p>sinomate音乐风向标</p> 音乐风向标实时反馈全世界约8000个电台频道播放情况。 实时展现电台频道播放记录，播放内容
+						独创的音频指纹分析技术，精准快捷
+					</a>
+				</div>
+				<div class="grid_3">
+					<a class="servc_block" href="javascript:void(0);" alt="">
+						<div class="icon_bord">
+							<img class="icon1" src="/static/5308images/icon2.png" /> <img
+								class="icon1_h" src="/static/5308images/icon2_h.png" />
+						</div>
+						<p>Pedimoni 开源地毯</p> 开源地毯采用敏捷传感器实时跳动，反馈音乐会现场热度
+						简易安装，可以轻松布置在诸如剧院，露天场所等各种音乐会场景 简易安装，可以轻松布置在诸如剧院，露天场所等各种音乐会场景
+					</a>
+				</div>
+				<div class="grid_3">
+					<a class="servc_block" href="javascript:void(0);" alt="">
+						<div class="icon_bord">
+							<img class="icon1" src="/static/5308images/icon3.png" /> <img
+								class="icon1_h" src="/static/5308images/icon3_h.png" />
+						</div>
+						<p>Pogothermo</p> Pogothermo start its evolution in pogo
+						thermometer which could make use of sensors to capture every close
+						reaction of fans as statistics through counting the shout, bounce,
+						pogo, etc.
+					</a>
+				</div>
+				<div class="grid_3 omega">
+					<a class="servc_block" href="javascript:void(0);" alt="">
+						<div class="icon_bord">
+							<img class="icon1" src="/static/5308images/icon4.png" /> <img
+								class="icon1_h" src="/static/5308images/icon4_h.png" />
+						</div>
+						<p>Pogo-Rock</p> This is a not only database to hold all the
+						information of rockers, but also a platform which can combine
+						bands and fans together. Bands’ recent news and performances can
+						be published in there, for all the fans.
+					</a>
+				</div>
+
+				<div class="clear"></div>
+			</div><!-- #图标效果结束 -->
+			<div id="content" class="grid_12">
+				<h2>简介</h2>
+				<div class="h1_viva">简约从来不是那么简单，科技创想未来</div>
+			</div>
+
+			<div id="content">
+				<div class="grid_4">
+					<p>从上手的那一刻起，你就知道怎样使用你的 iPhone、iPad 或 iPod touch。这是因为 iOS
+						的设计简单易懂。简洁不失美观的主屏幕，吸引你去探索每款内置
+						app。因此你可以立刻浏览喜爱的网站、拍几张快照，或者向好友发送文本信息。无论你在做什么，使用什么
+						app，你所触及的一切，无不简单、直观、充满乐趣。人们常常将简约等同于极简主义。但是，真正的简约远不止删除矫饰和去除杂乱那么简单。而是因应你的需要，因地、因时恰到好处地展现每一方面。删繁就简，事事有序，以及确保所做的每一件事总是
+						“行之有效”。当你第一次上手使用，就对它所能做的了然于胸时，那就是简约。</p>
+				</div>
+				<div class="grid_4">
+					<p>由于 Apple 同时制造 iPad、iPhone 和 iPod touch
+						的硬件和操作系统，因此一切都配合得天衣无缝。这种高度整合使 app
+						得以充分利用双核处理器、加速图形处理芯片、无线天线以及更多硬件功能。多任务处理就是一个杰出典范。iOS 7 会了解你喜欢何时使用
+						app，并选择能效合理的时候，如你持续使用设备并连接到无线网络时，来更新 app 中的内容。所以，你喜欢的 app
+						的内容将一直保持更新，同时又不会消耗很多电量。</p>
+				</div>
+				<div class="grid_4 omega">
+					<p>iOS 是成千上万移动 app 的平台，现已有超过 900,000 款精彩 app，并且数量还在增加6。而且，每款
+						app 都天生出色。这是因为 Apple 为第三方开发者提供了丰富的工具和 API，从而让他们开发的 app 和游戏能充分利用每部
+						iOS 设备蕴含的先进技术。所有 app 都集中在一处，只要使用你在 iTunes 上所用的同一账户，就能轻松访问、搜索和购买这些
+						app。你需要做的，只是在 iOS 设备上浏览 App Store，然后轻点下载。</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+	</div>
+<!-- #简介end -->
+
+	<div class="slide" id="slide3" data-slide="3"
+		data-stellar-background-ratio="0.5">
+		<div class="padding_slide3">
+
+			<div class="button_bg">
+				<a class="button button3" title="" data-slide="1"></a>
+			</div>
+
+		</div>
+	</div>
+
+<!-- #内容详情 -->
+	<div class="slide" id="slide4" data-slide="4"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>内容详情</h2>
+				<div class="h1_viva">iPad、iPhone 和 iPod touch的硬件和操作系统整齐划一</div>
+			</div>
+			<!-- #中间效果 -->
+			<div id="content">
+				<div class="grid_12">
+					<div class="exhib_block">
+						<div class="exhib_line_center"></div>
+						<div class="exhib_date_top">2013</div>
+						<p class="exhib_p_top">“Etiam gravida convallis, Columbus
+							College</p>
+
+						<div class="exhib_cont fright">
+							<div class="exhib_date_left">2013</div>
+							<p>“TEtiam nunc tortor”, Junction View Studios</p>
+							Pellentesque habitant morbi tristique senectus et netus et
+							malesuada fames ac turpis egestas. Cras sed risus
+						</div>
+						<div class="clear"></div>
+
+						<div class="exhib_cont fleft">
+							<div class="exhib_date_right">2013</div>
+							<p>“Vestibulum euismod ”, Columbus College</p>
+							Donec in vehicula augue. Sed et nisi sem, at semper dolor.
+							Pellentesque habitant morbi tristique senectus
+						</div>
+						<div class="clear"></div>
+
+						<div class="exhib_cont fright">
+							<div class="exhib_date_left">2013</div>
+							<p>“Aliquam vitae lorem ”, Junction View Studios</p>
+							Pellentesque habitant morbi tristique senectus et netus et
+							malesuada fames ac turpis egestas. Cras sed risus
+						</div>
+						<div class="clear"></div>
+						<div class="exhib_cont fleft">
+							<div class="exhib_date_right">2013</div>
+							<p>“Vestibulum euismod ”, Columbus College</p>
+							Donec in vehicula augue. Sed et nisi sem, at semper dolor.
+							Pellentesque habitant morbi tristique senectus
+						</div>
+						<div class="clear"></div>
+
+						<div class="exhib_cont fright">
+							<div class="exhib_date_left">2013</div>
+							<p>“Aliquam vitae lorem ”, Junction View Studios</p>
+							Pellentesque habitant morbi tristique senectus et netus et
+							malesuada fames ac turpis egestas. Cras sed risus
+						</div>
+						<div class="clear"></div>
+
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div><!-- #中间效果end -->
+			<div id="content">
+				<div class="grid_6">
+					<p>由于 Apple 同时制造 iPad、iPhone 和 iPod touch
+						的硬件和操作系统，因此一切都配合得天衣无缝。这种高度整合使 app
+						得以充分利用双核处理器、加速图形处理芯片、无线天线以及更多硬件功能。多任务处理就是一个杰出典范。</p>
+					<p>iOS 7 会了解你喜欢何时使用 app，并选择能效合理的时候，如你持续使用设备并连接到无线网络时，来更新 app
+						中的内容。所以，你喜欢的 app 的内容将一直保持更新，同时又不会消耗很多电量。</p>
+					<p>iOS 是成千上万移动 app 的平台，现已有超过 900,000 款精彩 app，并且数量还在增加6。而且，每款
+						app 都天生出色。这是因为 Apple 为第三方开发者提供了丰富的工具和 API，从而让他们开发的 app 和游戏能充分利用每部
+						iOS 设备蕴含的先进技术。</p>
+				</div>
+				<div class="grid_6 omega">
+					<div class="servc_block">
+						<div class="icon_h">
+							<img class="icon_bg" src="/static/5303images/icon_bg.png" alt="" />
+							<img class="servc_icon" src="/static/5303images/icon1.png" alt="" />
+						</div>
+						<a href="javascript:void(0);" alt="">iphone开发</a> Vestibulum ante
+						ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+						Curae; Phasellus tempor ipsum
+						<div class="clear"></div>
+					</div>
+					<div class="servc_block">
+						<div class="icon_h">
+							<img class="icon_bg" src="/static/5303images/icon_bg.png" alt="" />
+							<img class="servc_icon" src="/static/5303images/icon2.png" alt="" />
+						</div>
+						<a href="javascript:void(0);" alt="">游戏开发</a> Vestibulum ante
+						ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+						Curae; Phasellus tempor ipsum
+						<div class="clear"></div>
+					</div>
+					<div class="servc_block">
+						<div class="icon_h">
+							<img class="icon_bg" src="/static/5303images/icon_bg.png" alt="" />
+							<img class="servc_icon" src="/static/5303images/icon3.png" alt="" />
+						</div>
+						<a href="javascript:void(0);" alt="">web应用</a> Vestibulum ante
+						ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+						Curae; Phasellus tempor ipsum
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+	</div>
+<!-- #内容详情end-->
+
+	<div class="slide" id="slide5" data-slide="5"
+		data-stellar-background-ratio="0.5">
+		<div class="padding_slide5">
+
+			<div class="button_bg">
+				<a class="button button3" title="" data-slide="1"></a>
+			</div>
+
+		</div>
+	</div>
+
+<!-- #团队介绍 -->
+	<div class="slide" id="slide6" data-slide="6"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>团队介绍</h2>
+				<div class="h1_viva">严师出高徒，强将手下无弱兵，要就要最好的</div>
+			</div>
+			<div class="clear"></div>
+
+			<div id="contenet">
+				<div class="gallery-list">
+					<!-- portfolio_block -->
+					<div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5303images/1.jpg" alt="" />
+								<div class="item_description">
+									<p>nikki johnson</p>
+									Nam eleifend vulputate diam non accumsan. Fusce felis <span
+										class="portfolio_zoom"><a
+										href="/static/5303images/1big.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+									<span class="portfolio_link"><a
+										href="javascript:void(0);">View item</a></span>
+								</div>
+							</div>
+						</div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5303images/2.jpg" alt="" />
+								<div class="item_description">
+									<p>nikki johnson</p>
+									Nam eleifend vulputate diam non accumsan. Fusce felis <span
+										class="portfolio_zoom"><a
+										href="/static/5303images/2big.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+									<span class="portfolio_link"><a
+										href="javascript:void(0);">View item</a></span>
+								</div>
+							</div>
+						</div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5303images/3.jpg" alt="" />
+								<div class="item_description">
+									<p>nikki johnson</p>
+									Nam eleifend vulputate diam non accumsan. Fusce felis <span
+										class="portfolio_zoom"><a
+										href="/static/5303images/3big.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+									<span class="portfolio_link"><a
+										href="javascript:void(0);">View item</a></span>
+								</div>
+							</div>
+						</div>
+						<div class="img_block omega">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5303images/4.jpg" alt="" />
+								<div class="item_description">
+									<p>nikki johnson</p>
+									Nam eleifend vulputate diam non accumsan. Fusce felis <span
+										class="portfolio_zoom"><a
+										href="/static/5303images/4big.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+									<span class="portfolio_link"><a
+										href="javascript:void(0);">View item</a></span>
+								</div>
+							</div>
+						</div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5303images/5.jpg" alt="" />
+								<div class="item_description">
+									<p>nikki johnson</p>
+									Nam eleifend vulputate diam non accumsan. Fusce felis <span
+										class="portfolio_zoom"><a
+										href="/static/5303images/5big.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+									<span class="portfolio_link"><a
+										href="javascript:void(0);">View item</a></span>
+								</div>
+							</div>
+						</div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5303images/6.jpg" alt="" />
+								<div class="item_description">
+									<p>nikki johnson</p>
+									Nam eleifend vulputate diam non accumsan. Fusce felis <span
+										class="portfolio_zoom"><a
+										href="/static/5303images/6big.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+									<span class="portfolio_link"><a
+										href="javascript:void(0);">View item</a></span>
+								</div>
+							</div>
+						</div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5303images/7.jpg" alt="" />
+								<div class="item_description">
+									<p>nikki johnson</p>
+									Nam eleifend vulputate diam non accumsan. Fusce felis <span
+										class="portfolio_zoom"><a
+										href="/static/5303images/7big.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+									<span class="portfolio_link"><a
+										href="javascript:void(0);">View item</a></span>
+								</div>
+							</div>
+						</div>
+						<div class="img_block omega">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5303images/8.jpg" alt="" />
+								<div class="item_description">
+									<p>nikki johnson</p>
+									Nam eleifend vulputate diam non accumsan. Fusce felis <span
+										class="portfolio_zoom"><a
+										href="/static/5303images/8big.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+									<span class="portfolio_link"><a
+										href="javascript:void(0);">View item</a></span>
+								</div>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+					</div>
+					<!-- //portfolio_block -->
+				</div>
+			</div>
+
+		</div>
+	</div>
+<!-- #团队介绍end -->
+
+	<div class="slide" id="slide7" data-slide="7"
+		data-stellar-background-ratio="0.5">
+		<div class="padding_slide7">
+
+			<div class="button_bg">
+				<a class="button button3" title="" data-slide="1"></a>
+			</div>
+
+		</div>
+	</div>
+
+<!-- #地址信息 -->
+	<div class="slide" id="slide8" data-slide="8"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content">
+				<h4>Contact</h4>
+				<div class="grid_6">
+							<div class="address_block">
+								<h5>Address</h5>
+								<p>
+									<img class="map_pin2" src="/static/5303images/map_pin2.png" />Tower
+									C,Cloud Base,XierQi,Haidian,Beijing
+								</p>
+								<p>Sonidigg development center locates at "Tower C, Cloud
+									Vally,ShangDi International software Zone,HaiDian
+									District,Beijing",besides R&D center of Bank of China adn Baidu
+									Building</p>
+								<h5>Parking</h5>
+								<p>Parking here is convinent and easy, for there are parking
+									stations and you can also park your car nearby the roads.</p>
+							</div>
+						</div>
+						
+						<div class="grid_6 omega">
+							<h4>公司地址</h4>
+							<ul class="pers_inf">
+								<li><span><img class="map_pin2" src="/static/5303images/callpng.png" />座机：</span>(+010) 62418396</li>
+								<li><span><img class="map_pin2" src="/static/5303images/map_pin2.png" />北京研发总部：</span>云基地C座，西二旗软件园，海淀区，北京</li>
+								<li><span>北京算法中心：</span>亦庄软件产业园，亦庄经济技术开发区，北京</li>
+								<li><span>长沙算法中心：</span>开福区德雅路，长沙市,湖南省</li>
+								<li><span><img class="map_pin2" src="/static/5303images/emailpng.png" />Email：</span><a href="mailto:wbl@sonidigg.com"
+									class="">wbl@sonidigg.com</a></li>
+								<li><span><img class="map_pin2" src="/static/5303images/websitepng.png" />Website</span><a href="/englishpage">Sonidigg
+										English page</a></li>
+								<li><span>中文版网站：</span><a href="/mainpagechinese">数音堂中文网站</a></li>
+							</ul>
+						</div>
+
+				<div id="map_block">
+					<iframe width="100%" height="280" frameborder="0" scrolling="no"
+						marginheight="0" marginwidth="0"
+						src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Malianwa North Road+Haidian+Beijing+China&amp;aq=&amp;sll=40.034466,116.296248&amp;sspn=0.0092,0.020084&amp;ie=UTF8&amp;hq=&amp;hnear=菊园东+Haidian+Beijing+China&amp;ll=40.034466,116.296248&amp;spn=0.0092,0.020084&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+				</div>
+
+				<div class="clear"></div>
+			</div>
+
+			<div id="content" class="grid_12">
+				<h2>联系我们</h2>
+				<div class="h1_viva">google地图快速找到我们</div>
+			</div>
+			<div class="clear"></div>
+
+			<div class="grid_12">
+				<p>Nullam aliquam, mauris sit amet convallis condimentum, massa
+					tortor pretium magna, vitae rutrum libero nibh vitae nisl. Sed
+					imperdiet dictum sapien. Mauris tortor massa, euismod eu rhoncus
+					dignissim, ultrices at leo. Donec gravida, lorem ac sollicitudin
+					venenatis, ante risus convallis massa, non porta eros diam sit amet
+					elit. Ut blandit ornare ante hendrerit malesuada. Duis eget odio at
+					erat condimentum tempus. Duis fermentum odio nec arcu elementum sit
+					amet</p>
+				<div class="contact_form">
+					<div id="note"></div>
+					<div id="fields">
+						<form id="ajax-contact-form" action="">
+							<div class="grid_6">
+								<input type="text" name="name" value="" placeholder="Name" /> <input
+									type="text" name="subject" value="" placeholder="Phone" /> <input
+									type="text" name="email" value="" placeholder="Email" />
+							</div>
+							<div class="grid_6 omega">
+								<textarea name="message" id="message" placeholder="Message"></textarea>
+							</div>
+							<div class="clear"></div>
+							<input type="reset" class="contact_btn" value="Clear Form" /> <input
+								type="submit" class="contact_btn send_btn" value="Send" />
+							<div class="clear"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+		</div>
+
+		<div id="map_block">
+			<iframe width="100%" height="722" frameborder="0" scrolling="no"
+				marginheight="0" marginwidth="0"
+				src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Malianwa North Road+Haidian+Beijing+China&amp;aq=&amp;sll=40.034466,116.296248&amp;sspn=0.0092,0.020084&amp;ie=UTF8&amp;hq=&amp;hnear=菊园东+Haidian+Beijing+China&amp;ll=40.034466,116.296248&amp;spn=0.0092,0.020084&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+		</div>
+
+	</div>
+<!-- #地址信息end -->
+
+<!-- #footer开始 -->
+		<div id="footer">
+			<div class="container clearfix">
+				<div class="copyright">
+					Copyright © 2013 <a href="http://www.sonidigg.com">SoniDigg</a>
+					&copy; |All rights reserved
+				</div>
+				<div id="back_top">
+					<a class="button" title="" data-slide="1">TOP</a>
+				</div>
+			</div>
+		</div>
+		<!-- #footer结束 -->
+</body>
+</html>
+

@@ -1,0 +1,1403 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale = 1.0, user-scalable = no">
+<title>sonidigg中文页面</title>
+<link type="text/css" rel="stylesheet" href="/static/5305css/css.css">
+<link type="text/css" rel="stylesheet"
+	href="/static/5305css/prettyPhoto.css">
+<link type="text/css" rel="stylesheet"
+	href="/static/5305css/normalize.css" media="screen">
+<link type="text/css" rel="stylesheet" href="/static/5305css/grid.css"
+	media="screen">
+<link type="text/css" rel="stylesheet" href="/static/5305css/style.css"
+	media="screen">
+<link type="text/css" rel="stylesheet"
+	href="/static/5305css/flexslider.css" media="screen">
+<!-- #字体 -
+<link
+	href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800"
+	rel="stylesheet" type="text/css">
+<!-- #字体 -->
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<style type="text/css"></style>
+<style type="text/css"></style>
+<style type="text/css"></style>
+<script type="text/javascript" src="/static/5305js/jquery.easing.1.3.js"></script>
+<script type="text/javascript"
+	src="/static/5305js/jquery.prettyPhoto.js"></script>
+<script src="/static/5305js/jquery.sticky.js"></script>
+<script type="text/javascript" src="/static/5305js/js.js"></script>
+<script type="text/javascript"
+	src="/static/5305js/jquery.stellar.min.js"></script>
+<script type="text/javascript" src="/static/5305js/waypoints.min.js"></script>
+<!--[if lt IE 9]>
+		<script src="/static/5305js/html5shiv.js"></script>
+		<script src="/static/5305js/respond.src.js"></script>
+	<![endif]-->
+
+<script type="text/javascript">
+	$(document)
+			.ready(
+					function() {
+						$("#ajax-contact-form")
+								.submit(
+										function() {
+											var str = $(this).serialize();
+											$
+													.ajax({
+														type : "POST",
+														url : "contact_form/contact_process.php",
+														data : str,
+														success : function(msg) {
+															// Message Sent - Show the 'Thank You' message and hide the form
+															if (msg == 'OK') {
+																result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
+																$("#fields")
+																		.hide();
+															} else {
+																result = msg;
+															}
+															$('#note').html(
+																	result);
+														}
+													});
+											return false;
+										});
+
+					});
+</script>
+
+<script type="text/javascript"
+	src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script>
+</head>
+
+<body>
+
+
+	<div class="slide" id="slide1" data-slide="1"
+		data-stellar-background-ratio="0.5">
+		<div class="effect_2">
+			<div class="container clearfix">
+
+				<div id="content" class="grid_12">
+					<div class="filtr_bg">
+						<span>To Be Terminated!</span>
+						<div class="slogan">
+							<div class="left_bord"></div>
+							<div class="slogan_text">数音堂</div>
+							<div class="right_bord"></div>
+						</div>
+						<h1>音乐大数据</h1>
+						<a class="button" title="" data-slide="2"></a>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="inset_shadow"></div>
+		</div>
+	</div>
+
+
+	<div class="menu">
+		<div class="container clearfix">
+
+			<div id="nav">
+				<a class="btn_dropdown" data-toggle="collapse"
+					data-target=".nav-collapse_">MENU</a>
+				<ul class="navigation">
+					<li data-slide="2">关于我们</li>
+					<li data-slide="4">项目分类</li>
+					<li data-slide="6">产品展示</li>
+					<li data-slide="8">大事件</li>
+					<li data-slide="10">合作伙伴</li>
+					<li data-slide="14">团队成员</li>
+					<li data-slide="12">联系我们</li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- #about介绍开始 -->
+	<div class="slide" id="slide2" data-slide="2"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>
+					<span>数音堂</span>
+				</h2>
+			</div>
+			<div class="clear"></div>
+
+			<div id="content">
+				<div class="grid_12">
+					<h4>简介</h4>
+					<p>北京数音堂数据处理有限责任公司是一家专注于音乐大数据基础设施建设的技术创新公司。致力于建设覆盖全媒体的数据分析监测体系，树立行业标准，引导媒体行业发展向可视化、可量化和透明化的方向发展。</p>
+					<p>业务范围覆盖版权保护数据服务、音乐排行榜数据服务、定制化演艺咨询和艺人营销推广。我们的愿景是能够全面获取上述四大布局、八大终端的音乐大数据，成为音乐行业的“数据枢纽”。</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+	</div>
+	<!-- #about介绍结束-->
+	<!-- #map小图干掉 
+	<div class="slide" id="slide3" data-slide="3"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+
+			<div id="content" class="grid_12">
+				<h2>
+					<span>Map address</span>
+				</h2>
+			</div>
+			<div class="clear"></div>
+
+			<div id="content">
+				<h4>Direction</h4>
+				<div class="grid_6">
+					<div class="address_block">
+						<h5>Address</h5>
+						<ul class="pers_inf">
+						<li><span>Phone</span>(+010) 62418396</li>
+						<li><span>Address 1</span>Tower C,Cloud Base,Haidian,Beijing</li>
+						<li><span>Address 2</span>Wuhan,Wuhan Province</li>
+						<li><span>Email</span><a href="javascript:void(0);">wbl@sonidigg.com</a></li>
+						<li><span>Website</span><a href="javascript:void(0);">www.sonidigg.com</a></li>
+						</ul>
+						<h5>Parking</h5>
+						<p>it's easy to parking in International software Park</p>
+					</div>
+				</div>
+
+				<div class="grid_6 omega">
+					<div id="map_block">
+						<iframe width="100%" height="280" frameborder="0" scrolling="no"
+							marginheight="0" marginwidth="0"
+							src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=ruanjianyuan No.1 Road+Beijing+China&amp;aq=&amp;sll=40.048511316272,116.297321319580&amp;sspn=0.036836,0.080338&amp;ie=UTF8&amp;hq=&amp;hnear=ruanjianyuan No.1 Road+Beijing+China&amp;ll=40.048511316272,116.297321319580&amp;sspn=0.036836,0.080338&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+					</div>
+				</div>
+
+				<div class="clear"></div>
+			</div>
+
+		</div>
+	</div>
+	<!-- #map小图干掉 -->
+
+	<!-- #项目分类开始 -->
+	<div class="slide" id="slide4" data-slide="4"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>
+					<span>项目分类</span>
+				</h2>
+			</div>
+			<div class="clear"></div>
+
+			<div id="content">
+				<div class="grid_6">
+					<a class="servc_block" href="javascript:void(0);" alt=""> <span></span>
+						<div class="icon1"></div>
+						<p>营销数据咨询</p>
+						<div class="clear"></div>
+						基于全平台、多口径数据积聚和大数据分析技术，提供艺人地区热度、地区偏好、热度分析、舆论分析推广咨询。
+					</a>
+				</div>
+				<div class="grid_6 omega">
+					<a class="servc_block" href="javascript:void(0);" alt=""> <span></span>
+						<div class="icon4"></div>
+						<p>版权数据咨询</p>
+						<div class="clear"></div>
+						向音乐版权主体、托管机构提供基于全平台音、视频侦听技术的版权维权服务，量化版权信息，保护音乐人相应权益。
+					</a>
+				</div>
+
+				<div class="grid_6">
+					<a class="servc_block" href="javascript:void(0);" alt=""> <span></span>
+						<div class="icon3"></div>
+						<p>演出数据咨询</p>
+						<div class="clear"></div>
+						利用基于传统媒体和社交网络的数据抓取和分析，向艺人、演出策展方和赞助商提供场地和阵容推荐、艺人采购、招商咨询等服务。
+					</a>
+				</div>
+				<div class="grid_6 omega">
+					<a class="servc_block" href="javascript:void(0);" alt=""> <span></span>
+						<div class="icon2"></div>
+						<p>大数据频道</p>
+						<div class="clear"></div>
+						音乐与数据交界，理性与感性碰撞——我们将音乐变成数据、数据化为产品、产品聚合成内容、内容构造形成平台，给广大民众提供全方位数据共享。
+					</a>
+				</div>
+
+				<div class="clear"></div>
+
+			</div>
+
+		</div>
+	</div>
+	<!-- #项目分类结束 -->
+
+
+	<!-- #Works产品展示开始 -->
+	<div class="slide" id="slide6" data-slide="6"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>
+					<span>产品展示</span>
+				</h2>
+			</div>
+			<div class="clear"></div>
+
+			<div id="content">
+				<div class="grid_12">
+					<h4>产品</h4>
+					<div class="accordion">
+
+						<!-- #下拉点击works开始 -->
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>演出数据咨询——艺人采购</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">固定地点、变动阵容的演出艺人推荐</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/idio.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="idio" />
+							<p>
+							<p>我们铺设众多传感器，可以捕获体验者脚踩所对应的音符，然后展现成诗词歌曲。得到众多小孩子的喜爱，寓教于乐。</p>
+							<!--  # 优酷视频图显 -->
+							<p>
+								<iframe height=498 width=510
+									src="http://player.youku.com/embed/XNTU5NDIxMDcy" frameborder=0
+									allowfullscreen></iframe>
+							</p>
+							<!-- #优酷视频图显end -->
+
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>演出数据咨询——演出地点推荐</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">固定阵容、变动地点的演出地推荐</p>
+							<p>固定阵容、变动地点的演出地推荐</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/thermo.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="thermo" />
+							<p>音乐地毯通过传感器捕获音乐会现场观众兴奋程度，实时反应观众对音乐会的直接感官，如跺脚，兴奋踱步等等反应
+								这样获取的数据是真实直观的，可以对音乐会组织者起到现场调控和信息辅助功能。</p>
+							<p>
+								<iframe height=498 width=510
+									src="http://player.youku.com/embed/XNTc0OTA0ODEy" frameborder=0
+									allowfullscreen></iframe>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works结束 -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>演出数据咨询——招商咨询</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">帮你寻找“气味相投”的赞助商</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/pub.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="pub" />
+							<p>音乐跳方格是一款有趣的应用，体验者通过踩踏不同的板面从而根据相应的传感器传递不同的音符。
+								这样一踩一动间创造不同节拍，不同力度的音乐节拍。其实有些时候可以用“脚指头”去思考，创造属于自己的音乐。</p>
+							<p>
+								<iframe height=498 width=510
+									src="http://player.youku.com/embed/XNTY3NDM1MjQ0" frameborder=0
+									allowfullscreen></iframe>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>音乐人营销数据咨询——艺人推广咨询</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">艺人推广咨询</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/livehouse.png"
+								class="attachment-portfolio-thumb wp-post-image" alt="livehouse" />
+							<p>通过终端设备检测音乐大数据，我们可以检测到不同地域，不同环境，不同场景，不同时间段以及不同气氛情况下广告的反应信息。
+								方便更加准确地进行精准投递广告信息，做到有的放矢。</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>音乐人营销数据咨询——热度分析</span>
+
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">恭喜你，你本月击败了全国99%的艺人！</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/trend.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="trend" />
+							<p>
+								综合网络、电台、微博、微信、搜索指数、广告媒介等各种媒体信息，量化分析具体某个歌手的欢迎度，热度和歌曲爱好，地区偏好等信息
+								为音乐人量身打造适合TA的路数，做到所向披靡。深度挖掘媒体数据，指引摇滚发展风向标。</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>大数据频道——手机APP</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">内容聚合、艺人动态跟踪、粉丝数据反馈</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/pogorock.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="pogorock" />
+							<p>
+								通过终端设备检测音乐大数据，我们可以检测到不同地域，不同环境，不同场景，不同时间段以及不同气氛情况下广告的反应信息。
+								多渠道分享音乐人周边资讯以及粉丝心得，以更完美的方式做到音乐人与粉丝互动。</p>
+							<p>
+								<img width="300" height="150"
+									src="/static/oldsonidiggimages/diedai.gif"
+									class="attachment-portfolio-thumb wp-post-image" alt="pogorock" />
+							</p>
+
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>大数据频道——新媒体</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">大数据和音乐圈的舆论聚合平台</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/soniradio1.jpg"
+								class="attachment-portfolio-thumb wp-post-image"
+								alt="soniradio1" />
+							<p>我们可以捕获世界范围内近8500个电台，不同频道，不同地域，风格迥异的歌手，曲风多样的歌曲信息，相应的播放时间，
+								播放时长，播放次数，歌曲排名，热度增长情况，地区偏好等等深入的信息，为音乐人增值提供数据支撑。</p>
+							<ul class="slides">
+								<li><a href="/static/oldsonidiggimages/diedai.gif"
+									title="&nbsp;&nbsp;Sonimate-Radio" rel="lightwindow"><img
+										src="/static/oldsonidiggimages/diedai.gif"
+										alt="&nbsp;&nbsp;Sonimate-Radio"></a></li>
+								<li><a href="/static/oldsonidiggimages/radio.gif"
+									title="&nbsp;&nbsp;Sonimate-Radio" rel="lightwindow"><img
+										src="/static/oldsonidiggimages/radio.gif"
+										alt="&nbsp;&nbsp;Sonimate-Radio"></a></li>
+								<li><a href="/static/oldsonidiggimages/rock.gif"
+									title="&nbsp;&nbsp;Sonimate-Radio" rel="lightwindow"><img
+										src="/static/oldsonidiggimages/rock.gif"
+										alt="&nbsp;&nbsp;Sonimate-Radio"></a></li>
+							</ul>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>版权数据咨询——版权收购推荐</span>
+
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">分析艺人热度趋势，帮你找到下一个鸟叔</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/idio.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="idio" />
+							<p>分析艺人热度趋势，帮你找到下一个鸟叔， 捕获电视媒体相关资讯，服务大众。</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+
+						<!-- #下拉点击works开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">2013</div>
+							<div class="ac_plmin"></div>
+							<span>版权数据咨询——版权费用追讨</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">搜集侵权证据，帮你讨回应有的版权费用</p>
+
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/ad.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="ad" />
+							<p>量化分析版权数据，有实有据，合情合理</p>
+							<p>
+								<a href="/static/oldsonidiggimages/radio.gif"
+									title="&nbsp;&nbsp;Sonimate-Radio" rel="lightwindow"><img
+									src="/static/oldsonidiggimages/radio.gif"
+									alt="&nbsp;&nbsp;Sonimate-Radio"></a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击works -->
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+	</div>
+	<!-- #Works产品展示结束 -->
+
+	<!-- #events大事件开始 -->
+	<div class="slide" id="slide8" data-slide="8"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>
+					<span>大事件</span>
+				</h2>
+			</div>
+			<div class="clear"></div>
+
+			<div id="content">
+				<div class="grid_12">
+					<div class="accordion">
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">11月18日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年11月18日，Oracle技术嘉年华技术交流大会</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">2013年11月18日，Oracle技术嘉年华技术交流大会</p>
+							<p>本届Oracle技术嘉年华除了在Oracle数据库技术上更加深入之外，在演讲嘉宾方面也有很大的特色，云计算，大数据方面的应用案例与特定需求明显。</p>
+							<img width="380" height="257"
+								src="/static/oldsonidiggimages/oracle1.jpg"
+								class="attachment-blog-post-detail wp-post-image"
+								alt="2013oracle" /></a>
+							<p></p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">11月18日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年11月18日，Oracle技术嘉年华IT168专访</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">2013年11月18日，Oracle技术嘉年华IT168专访</p>
+							<p>本届Oracle技术嘉年华除了在Oracle数据库技术上更加深入之外，在演讲嘉宾方面也有很大的特色，除了国际知名的Oracle技术大师不远万里来北京给大家带来分享，带来了自己的新书签售之外，还有一位跨界的牛人，那就是数音堂的创始人王博龙。</p>
+							<img width="380" height="257"
+								src="/static/oldsonidiggimages/it168.jpg"
+								class="attachment-blog-post-detail wp-post-image" alt="技术人攻略》专访" /></a>
+							<p></p>
+							<p>
+								数音堂王博龙：音乐大数据挖掘势在必行 <a
+									href="http://tech.it168.com/a2013/1118/1560/000001560829.shtml">http://tech.it168.com/a2013/1118/1560/000001560829.shtml</a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">11月6日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年11月6日，知名微信自媒体《技术人攻略》专访</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">2013年11月6日，知名微信自媒体《技术人攻略》专访</p>
+							<p>2013年11月6日，知名微信自媒体《技术人攻略》专版刊登王博龙的采访文章《技术人攻略访谈十三：三体摇滚青年在地球》</p>
+							<img width="380" height="257"
+								src="/static/oldsonidiggimages/jishuren.jpg"
+								class="attachment-blog-post-detail wp-post-image" alt="技术人攻略》专访" /></a>
+							<p></p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">10月30日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年10月30日，知名传统纸媒《电脑报》专访</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">2013年10月30日，知名传统纸媒《电脑报》发文介绍数音堂的发展历程</p>
+							<p>2013年10月30日，知名传统纸媒《电脑报》发文介绍数音堂的发展历程</p>
+							<p>
+								2012年12月16日，环球时报文章《The science of the self》报道了摇滚地震局的开源地毯项目： <a
+									href="http://www.icpcw.com/Information/Industry/News/3210/321015_3.htm">http://www.icpcw.com/Information/Industry/News/3210/321015_3.htm</a>
+							</p>
+
+							<p>
+								<img src="/static/oldsonidiggimages/thumb.png" alt="time"
+									width="288" height="300"
+									class="alignleft size-medium wp-image-478" /></a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">8月31日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年8月31日，CCTV央视重磅报道以摇滚地震局为代表的中关村新一轮创业潮</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">2013年8月31日，CCTV央视重磅报道以摇滚地震局为代表的中关村新一轮创业潮</p>
+							<p>
+								2013年8月31日，CCTV央视重磅报道以摇滚地震局为代表的中关村新一轮创业潮； <a
+									href="http://news.cntv.cn/2013/08/31/VIDE1377906722300275.shtml">http://news.cntv.cn/2013/08/31/VIDE1377906722300275.shtml</a>
+							</p>
+							<p>
+
+								<img src="/static/oldsonidiggimages/yangshi2.png"
+									alt="macworld_wang" width="660" height="320"
+									class="aligncenter size-full wp-image-515" />
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">8月25日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年8月22日至25日，摇滚地震局携手极客公园，现身MacWorld 2013</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">2013年8月22日至25日，摇滚地震局携手极客公园，现身MacWorld
+								2013</p>
+							<p>
+								2013年8月22日至25日，摇滚地震局携手极客公园，现身MacWorld
+								2013，创始人王博龙作为演讲嘉宾，向来自全球的科技行业人士展示了音乐和大数据的不解姻缘； <a
+									href="http://iphone.tgbus.com/news/class/201308/20130821153227_4.shtml">http://iphone.tgbus.com/news/class/201308/20130821153227_4.shtml</a>
+							</p>
+							<p>
+								<a
+									href="http://tech.91.com/exhibition/Macworld2013/2013/0823/21601318_4.html">http://tech.91.com/exhibition/Macworld2013/2013/0823/21601318_4.html</a>
+							</p>
+
+							<p>
+								<img width="380" height="181"
+									src="/static/oldsonidiggimages/macworld-270x66.png"
+									class="attachment-blog-post-detail wp-post-image" alt="diedai" /></a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">8月15日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年8月15，极客公园造访摇滚地震局，业内首现“迭代摇滚乐”的概念</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">2013年8月15，极客公园造访摇滚地震局，业内首现“迭代摇滚乐”的概念</p>
+							<p>2013年8月15，极客公园造访摇滚地震局，业内首现“迭代摇滚乐”的概念；
+								http://www.geekpark.net/read/view/186561</p>
+							<p>
+								<a href="/static/oldsonidiggimages/IMG_6312-缩-270x180.jpg"
+									title="“People in Hackathon” Bolloon Wang:  A geek with Rock flavor"
+									rel="lightwindow"><img width="380" height="253"
+									src="/static/oldsonidiggimages/IMG_6312-缩-270x180.jpg"
+									class="attachment-blog-post-detail wp-post-image"
+									alt="IMG_6312 缩" /></a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">7月12日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年7月12日接受《中国高新产业技术导报》的报导</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">中关村梦想实验室：领略造梦人生</p>
+							<p>
+								2012年，北京创客空间被授予中关村创新型孵化器的称号。在中关村优惠政策的帮助下，创客空间入孵中关村国际数字设计中心，并在这里拥有了200平方米的办公场地，诞生了摇滚地震局、创客音响、3D打印机这3个从创客空间开放实验室中成长起来的团队。
+
+								<a href="http://www.zgc.gov.cn/dt/fwdt/90214.htm">http://www.zgc.gov.cn/dt/fwdt/90214.htm</a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">7月5日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年7月5日《中国网》专题报导</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">中关村梦想实验室成就“创业中国梦”</p>
+							<p>
+								2013年05月至7月，摇滚地震局作为国内创客精神的物质结晶，先后接受《经济参考报》、《京华时报》、《决策》杂志
+								、中国网、《中国高新产业技术导报》和雷锋网的专访； <a
+									href="http://finance.china.com.cn/roll/20130705/1610342.shtml">http://finance.china.com.cn/roll/20130705/1610342.shtml</a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">7月5日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年7月4日新浪新闻 《决策》杂志专题报导</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">自时代：一个颠覆性的新时代来临</p>
+							<p>“哈里波特的魔棒”</p>
+							<p>
+								王博龙因机缘巧合来到创客空间时，他还在北京航空航天大学读研究生，偶尔来创客空间的他，还有另外一个身份——摇滚乐队的主唱。
+								“在一场摇滚演出中，欢呼可以撩拨，掌声可以讨要，什么是影响演出现场气氛的因素？”王博龙发现，听众对一首有感染力的摇滚歌曲最本能的回应就是随着节拍跺脚甚至蹦跳。如果能让地板“感应和记录”听众的躁动程度，并将他们的足迹投影在屏幕上，会不会是一种全新的现场互动方式？
+								<a
+									href="http://news.sina.com.cn/c/2013-07-04/164727577917.shtml">http://news.sina.com.cn/c/2013-07-04/164727577917.shtml</a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">7月2日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年7月2日《雷锋网》【创客马拉松·人物】报导</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">【创客马拉松·人物】王博龙：富有工程气息的摇滚技术宅</p>
+							<p>
+								不管在父母还是老师的眼中，王博龙是一位非常乖巧的孩子：一路他听从父母的指引，考大学，选专业，考研。而乖巧的背后，也无法掩盖他喜欢捣鼓的造物心。经过几番周折后，他终于得到了父母和导师的认可，踏上了创业的道路。正在北航读研二的他，已经是数音堂数据处理有限公司的董事长和技术总裁。一个搞硬件的音乐人，背后会有什么样的故事？
+								<a href="http://www.leiphone.com/maker-wangbolong.html">http://www.leiphone.com/maker-wangbolong.html</a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">5月28日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年5月28日京华网《京华时报》孵化器创业专题</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">孵化器助推企业创新创业</p>
+							<p>
+								2012年，北京创客空间被授予中关村创新孵化器称号，创始人王盛林最初成立它的目的就是好玩儿。在王盛林看来，“创客就是一个开放与包容的平台，能够容纳来自各个领域、不同背景的人，让想法在这里交汇，迸发出新的创意，并通过实践把这些创意变成现实。”目前，“3D打印机”、“创客音响”、“数音堂”、“防盗保险箱”等在开放实验室中成长起来的团队在创客空间的助力下，正逐渐发展为具备商业运作能力的创业公司。
+								<a
+									href="http://epaper.jinghua.cn/html/2013-05/28/content_1992885.htm">http://epaper.jinghua.cn/html/2013-05/28/content_1992885.htm</a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">5月24日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年5月24日新华网《经济参考报》数音堂创业专题</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">从创客到创业</p>
+							<p>
+								在北京创客空间，见到最多的就是80末年轻人的面孔。如果认为这些20岁出头的毛头小孩仅仅只是创客空间的玩客，那就错了。他们中的一些人已经在开放实验室的一次次试验中带领团队走上了创业道路。
+								龙年出生的男生王博龙便是其中之一。尽管目前他仍在北京航空航天大学精密仪器专业就读研究生二年级，但他的名片上已经印着“数音堂数据处理有限责任公司董事长&技术总裁
+								”的字样。 <a
+									href="http://dz.jjckb.cn/www/pages/webpage2009/html/2013-05/24/content_75141.htm?div=-1">http://dz.jjckb.cn/www/pages/webpage2009/html/2013-05/24/content_75141.htm?div=-1</a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">4月29日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年4月29日到5月1号参展北京迷笛音乐节，推出“七步成诗”，广受关注</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">2013年4月29日到5月1号参展北京迷笛音乐节，推出“七步成诗”，广受关注</p>
+							<p>
+								<img width="450" height="300"
+									src="/static/oldsonidiggimages/midi.jpg"
+									class="attachment-portfolio-thumb wp-post-image" alt="thermo" />
+							</p>
+							<p>2013年4月29日到5月1号参展北京迷笛音乐节，期间旗下项目七步成诗，收到了参加迷笛的小朋友和家长们的喜爱，体验的人群络绎不绝；
+								北京迷笛期间为庆祝迷笛音乐节20周年，精心为迷笛主办方和高层准备了生日蛋糕，迷笛张帆校长光临摇滚地震局展位，并对摇滚乐地震局的项目表示高度肯定和喜爱，这一天也标志着摇滚地震局的正式成立。
+								《2013年北京迷笛音乐节 火爆上演摇滚盛会》</p>
+							<p>
+
+
+								<a href="/static/oldsonidiggimages/congzaomianwenduji.png"
+									title="Exclusive Music: From POGO thermometer to POGO thermo"
+									rel="lightwindow"><img
+									src="/static/oldsonidiggimages/congzaomianwenduji.png"
+									alt="Exclusive Music: From POGO thermometer to POGO thermo"></a>
+								<a href="http://ent.ynet.com/3.1/1304/28/7981332_2.html">http://ent.ynet.com/3.1/1304/28/7981332_2.html</a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">4月11日</div>
+							<div class="ac_plmin"></div>
+							<span>2013年4月11日，摇滚地震局接受权威音乐网站“音乐人攻略”专访</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">2013年4月11日，摇滚地震局接受权威音乐网站“音乐人攻略”专访</p>
+							<img width="300" height="150"
+								src="/static/oldsonidiggimages/thermo.jpg"
+								class="attachment-portfolio-thumb wp-post-image" alt="thermo" />
+							<p>
+								2013年4月11日，摇滚地震局接受权威音乐网站“音乐人攻略”专访，全面介绍了我们的努力和愿景：
+								《独家音乐：从噪眠温度计到摇滚地震局》 2012年12月6日，一场名为“假如POGO可以测量”的噪眠温度计标定仪式在北京MAO
+								livehouse进行，在圈内引发了一场地震。几个月过去了，怀揣着变革摇滚界的梦想，噪眠温度计的创始人楚人怀玉正在北京积极筹备即将成立的国家摇滚地震局。
+								那么究竟什么是噪眠温度计，什么又是国家摇滚地震局？它会给摇滚圈生态带来什么样的影响？带着疑问和好奇，音乐人攻略采访了噪眠温度计的创始人楚人怀玉。
+								<a
+									href="http://musicianguide.lofter.com/tag/%E6%91%87%E6%BB%9A?page=3">http://musicianguide.lofter.com/tag/%E6%91%87%E6%BB%9A?page=3</a>
+							</p>
+							<iframe height=498 width=510
+								src="http://player.youku.com/embed/XNTc0OTA0ODEy" frameborder=0
+								allowfullscreen></iframe>
+							</p>
+
+
+							<a class="ac_more"
+								href="http://musicianguide.lofter.com/tag/%E6%91%87%E6%BB%9A?page=3">View
+								website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">4月</div>
+							<div class="ac_plmin"></div>
+							<span>2013年4月，中关村“创客48小时”比赛，旗下项目七步成诗和摇滚垃圾桶惊艳亮相</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">2013年4月，中关村“创客48小时”比赛，旗下项目七步成诗和摇滚垃圾桶惊艳亮相</p>
+							<p>2013年4月，摇滚地震局成员组队参加中关村“创客48小时”比赛，旗下项目七步成诗和摇滚垃圾桶惊艳亮相，广受好评；
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">12月13日</div>
+							<div class="ac_plmin"></div>
+							<span>2012年12月13日，噪眠温度计在中关村软件园“云基地大数据日”上惊艳亮相</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">2012年12月13日，噪眠温度计在中关村软件园“云基地大数据日”上惊艳亮相</p>
+							<p>
+								2012年12月13日，噪眠温度计在中关村软件园“云基地大数据日”上结合乐队形式压轴展示，第一次将互动艺术结合进来，取得了惊艳效果。会后接受环球时报记者的采访。
+							
+							<p>
+								<img width="380" height="187"
+									src="/static/oldsonidiggimages/global-times-270x133.png"
+									class="attachment-blog-post-detail wp-post-image"
+									alt="global times">
+							</p>
+							2012年12月16日，环球时报文章《The science of the self》报道了摇滚地震局的开源地毯项目： <a
+								href="http://www.globaltimes.cn/content/750476.shtml">http://www.globaltimes.cn/content/750476.shtml</a>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">11月20日</div>
+							<div class="ac_plmin"></div>
+							<span>2012年11月20日 噪眠温度计正式开始在MAO livehouse铺设</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">2012年11月20日 噪眠温度计正式开始在MAO livehouse铺设</p>
+							<p>2012年11月20日 噪眠温度计正式开始在MAO livehouse铺设，并进行初期测试； 噪眠温度计：
+							<p>
+								<iframe height=498 width=510
+									src="http://player.youku.com/embed/XNTY3NDM1MjQ0" frameborder=0
+									allowfullscreen></iframe>
+							</p>
+							<p>http://v.youku.com/v_show/id_XNTc0OTA0ODEy.html
+								【湿身校园朋克】楚人怀玉与MAO老板商谈噪眠温度计事宜：</p>
+							<p>
+								<iframe height=498 width=510
+									src="http://player.youku.com/embed/XNTc0OTA0ODEy" frameborder=0
+									allowfullscreen></iframe>
+							</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+						<!-- #下拉点击events开始 -->
+						<div class="ac_lineheight"></div>
+						<h3>
+							<div class="ac_date">10月15日</div>
+							<div class="ac_plmin"></div>
+							<span>2012年10月15日 [噪眠温度计]项目得到了中央电视台青睐，并制作专题纪录片</span>
+						</h3>
+						<div class="accord_cont">
+							<div class="vert_line"></div>
+							<p class="ac_title">2012年10月15日 [噪眠温度计]项目得到了中央电视台青睐，并制作专题纪录片</p>
+							<p>2012年10月15日
+								【噪眠温度计】项目得到了中央电视台相关制片人的注意，并筹划以【噪眠温度计】项目及乐队演出为故事主线，拍摄了一部专题纪录片</p>
+							<a class="ac_more" href="javascript:void(0);">View website</a>
+						</div>
+						<!-- #下拉点击events结束 -->
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+	</div>
+	<!-- #services大事件结束 -->
+
+
+	<!-- #合作伙伴开始 -->
+	<div class="slide" id="slide10" data-slide="10"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+			<div id="content" class="grid_12">
+				<h2>
+					<span>合作伙伴</span>
+				</h2>
+			</div>
+			<div class="clear"></div>
+
+			<!-- #图片效果开始-
+			<div id="contenet">
+				<div class="overflow_hidden">
+					<div class="gallery-list">
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/1small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/1.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						
+						
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/2small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/2.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/3small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/3.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						<div class="img_block omega">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/4small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/4.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/5small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/5.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/6small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/6.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						<div class="img_block">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/7small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/7.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+						<div class="img_block omega">
+							<div class="hover_img">
+								<img class="portf_img" src="/static/5305images/8small.jpg"
+									alt="" /> <span class="portfolio_zoom"><a
+									href="/static/5305images/8.jpg" rel="prettyPhoto[portfolio1]"></a></span>
+								<span class="portfolio_link"><a
+									href="javascript:void(0);">View item</a></span>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			<!-- #图片效果结束 -->
+			<div id="contenet">
+				<div class="overflow_hidden">
+			<!-- #友情链接地址 -->
+			<div id="clients-flexslider" class="flexslider home clients">
+				<div class="headline">
+				</div>
+				
+				<div class="flex-viewport"
+					style="overflow: hidden; position: relative;">
+						<img src="/static/tubiao/sonidiggcopy.png" alt="">
+						<!-- # 
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/cctv.jpg" alt="">
+								<img src="/static/tubiao/cbc.gif" class="color-img" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/cctv.jpg" alt="">
+								<img src="/static/tubiao/csdn.png" class="color-img" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/cbc.gif" alt="">
+								<img src="/static/tubiao/oracle.jpg" class="color-img" alt="">
+						</a></li>
+
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/北京创客空间.jpg" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/大数据实验室.jpg" alt="">
+								<img src="/static/tubiao/云基地.png" class="color-img" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/华视传媒.png" alt="">
+								<img src="/static/tubiao/华视传媒.jpg" class="color-img" alt="">
+						</a></li>
+
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/欢网.png" alt="">
+								<img src="/static/tubiao/迷笛.jpg" class="color-img" alt="">
+						</a></li>
+
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/音著协.jpg" alt="">
+								<img src="/static/tubiao/国家音乐产业基地.jpg" class="color-img" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/热波传媒.png" alt="">
+								<img src="/static/tubiao/摩登天空.jpg" class="color-img" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/shennian.jpg" alt="">
+								<img src="/static/tubiao/音乐人攻略.png" class="color-img" alt="">
+						</a></li>
+						<li style="width: 129px; float: left; display: block;"><a
+							href="#"> <img src="/static/tubiao/天浩盛世.gif" alt="">
+								<img src="/static/tubiao/sina.jpg" class="color-img" alt="">
+						</a></li><!--#-->
+				</div><!-- #友情链接地址 -->
+			</div>
+		</div>
+	</div>
+	<!-- #合作伙伴结束 -->
+</div>
+</div>
+	<!-- #团队成员开始 -->
+	
+	<div class="slide" id="slide14" data-slide="14"
+		data-stellar-background-ratio="0.5">
+
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>
+					<span>团队成员</span>
+				</h2>
+			</div>
+			<div class="clear"></div>
+			<!-- #圆形图像效果 -->
+			<div id="contenet">
+				<div class="gallery_block">
+					<h4>Gallery</h4>
+					<div class="gallery-list">
+						<!-- portfolio_block -->
+						<div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img"
+										src="/static/Snagit/wang-bolong.jpg" alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Bolloon Wang</p>
+										Founder, CEO
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/yinying.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>CoCo.Y</p>
+										Creative Director
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img"
+										src="/static/Snagit/dixianjun.jpg" alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>XianXian.D</p>
+										Software Engineer
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img"
+										src="/static/Snagit/zhuchenxu.jpg" alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>God Of Pee</p>
+										CBO
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/juyuhao.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Roscoe.J</p>
+										Software Engineer
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img"
+										src="/static/Snagit/limingyao.jpg" alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>MingYao.Li</p>
+										Software Engineer
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/Echo.C.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Echo.C</p>
+										Engineer(pic)
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/skylor.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Skylor.Z</p>
+										Data Engineer
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/Simon.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Simon.X</p>
+										Software Engineer
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/dongchen.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Yadon.C</p>
+										Engineer(pic)
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/Pino.W.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Pino.W</p>
+										Director of Visual(pic)
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/Kurt.Z.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Kurt.Z</p>
+										Electrical Engineer(pic)
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/zhuliangkun.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>LiangKun.Z</p>
+										Software Engineer
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/chenbinghan.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>BingHan.C</p>
+										Marketing Director
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/wangxiaoyan.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Swan.WANG</p>
+										Bussiness Assistant
+									</div>
+								</div>
+							</div>
+							<div class="img_block">
+								<div class="hover_img">
+									<img class="circle_img"
+										src="/static/oldsonidiggimages/circle_img.png" /> <img
+										class="portf_img" src="/static/Snagit/changyaner.jpg"
+										alt="" />
+									<div class="inset_shadow"></div>
+									<div class="item_description">
+										<p>Yaner.C</p>
+										Executive Secretary
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<!-- //portfolio_block -->
+					</div>
+				</div>
+				<img class="icon_heart" src="/static/oldsonidiggimages/icon1.png" />
+			</div>
+			<!-- #圆形图像效果end -->
+
+		</div>
+	</div>
+	<!-- #团队成员结束 -->
+
+	<!-- #Contact开始 -->
+	<div class="slide" id="slide12" data-slide="12"
+		data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h2>联系我们</h2>
+			</div>
+			<div class="clear"></div>
+			<div id="content">
+				<div class="grid_6">
+					<h4>地址信息</h4>
+					<p>数音堂总部位于北京海淀区东北旺国际软件园云基地C座，比邻上地七街中国银行总行开发部，百度大厦，辉煌国际中心，交通方便。</p>
+					<p>云基地是中关村软件园大数据处理和云计算以及中国以色列软件外包基地，众多大数据处理行业领先企业云集于此。亦庄算法中心位于亦庄经济开发区软件园，是北京之眼，代表未来发展的方向。</p>
+					<p>云基地周围停车方便，有专用停车点，也可以停靠在上地七街周边。具体地图信息可以点击google地图进行缩放和放大，查看更加具体的路况信息，可以点击地图指向查看您所在地到云基地的路线图。</p>
+				</div>
+				<div class="grid_6 omega">
+					<h4>公司地址</h4>
+					<ul class="pers_inf">
+						<li><span>座机</span>(+010) 62418396</li>
+						<li><span>北京研发总部</span>云基地C座，西二旗软件园，海淀区，北京</li>
+						<li><span>北京算法中心</span>亦庄软件产业园，亦庄经济技术开发区，北京</li>
+						<li><span>长沙算法中心</span>开福区德雅路，长沙市,湖南省</li>
+						<li><span>Email</span><a href="mailto:wbl@sonidigg.com" class="">wbl@sonidigg.com</a></li>
+						<li><span>Website</span><a href="/englishpage">Sonidigg English page</a></li>
+						<li><span>中文版网站</span><a href="/chinesepage">数音堂中文网站</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<div id="map_block">
+		<iframe width="100%" height="722" frameborder="0" scrolling="no"
+			marginheight="0" marginwidth="0"
+			src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=ruanjianyuan No.1 Road+Beijing+China&amp;aq=&amp;sll=40.048511316272,116.297321319580&amp;sspn=0.036836,0.080338&amp;ie=UTF8&amp;hq=&amp;hnear=ruanjianyuan No.1 Road+Beijing+China&amp;ll=40.048511316272,116.297321319580&amp;sspn=0.036836,0.080338&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+	</div>
+	<!--  src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=los+angeles&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=53.080379,114.169922&amp;ie=UTF8&amp;hq=&amp;hnear=Los+Angeles,+California&amp;ll=34.052234,-118.243685&amp;spn=0.003427,0.006968&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+https://maps.google.com/maps/place?cid=2540952731003037291&authuser=0&continue=https:%2F%2Fmaps.google.com%2Fmaps%3Ff%3Dq%26source%3Ds_q%26hl%3Dzh-CN%26geocode%3D%26q%3D%25E6%25B5%25B7%25E6%25B7%2580%25E5%258C%25BA%25E4%25B8%258A%25E5%259C%25B0%25E4%25B8%2583%25E8%25A1%2597%25E4%25BA%2591%25E5%259F%25BA%25E5%
+259C%25B0%26aq%3D%26sll%3D39.969556,116.30024%26sspn%3D0.036836,0.080338%26vpsrc%3D6%26ie%3DUTF8%26hq%3D%25E4%25BA%2591%25E5%259F%25BA%25E5%259C%25B0%26hnear%3D%25E4%25B8%25AD%25E5%259B%25BD%25E5%258C%2597%25E4%25BA%25AC%25E5%25B8%2582%25E6%25B5%25B7%25E6%25B7%2580%25E5%258C%25BA%25E4%25B8%258A%25E5%259C%25B0%25E4%25B8%2583%25E8%25A1%2597%26ll%3D40.049727,116.3001%26spn%3D0.004599,0.010042%26t%3Dm%26z%3D17%26iwloc%3DA&mode=edit&ep=actbar-iw-wrapper
+-->
+	<!-- #Contact结束 -->
+
+	<!-- #footer开始 -->
+	<div id="footer">
+		<div class="container clearfix">
+			<div class="copyright">
+				Copyright © 2013 <a href="http://www.sonidigg.com">SoniDigg</a>
+				&copy; |All rights reserved
+			</div>
+			<div id="back_top">
+				<a class="button" title="" data-slide="1"></a>
+			</div>
+		</div>
+	</div>
+	<!-- #footer结束 -->
+</body>
+</html>
